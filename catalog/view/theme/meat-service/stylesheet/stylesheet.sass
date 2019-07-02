@@ -1,0 +1,409 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+//Custom styles here
+
+/*****************MIXINS**************/
+
+@mixin ProductSansReg()
+  font-family: 'Product Sans Regular', sans-serif
+
+@mixin ProductSansBold()
+  font-family: 'Product Sans Regular', sans-serif
+  font-weight: 700
+
+@mixin RobotoBlack()
+  font-family: 'Roboto', sans-serif
+  font-weight: 900
+
+@mixin RobotoMed()
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+
+body, html
+  @include ProductSansReg()
+  font-size: 100%
+  min-width: 320px
+  position: relative
+  line-height: 1.65
+  overflow-x: hidden
+  min-height: 100vh
+
+
+body
+  color: $text
+
+  &::-webkit-scrollbar-track
+    // border-radius: 6px
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+    background-color: transparent
+
+
+  &::-webkit-scrollbar
+    width: 6px
+    background-color: transparent
+
+
+  &::-webkit-scrollbar-thumb
+    background-color: $accent
+// border-radius: 6px
+
+
+.button
+  max-width: 230px
+  width: 100%
+  display: inline-block
+  font-size: 18px
+  padding: 13px 0
+  text-align: center
+  text-decoration: none
+  color: $text
+  transition: all .3s ease
+  line-height: 1
+  background-color: $accent
+  @include RobotoBlack()
+
+  &:hover, &:focus, &:active
+    color: $text
+    text-decoration: none
+
+
+.container-fluid
+  max-width: 1404px
+  width: 100%
+
+.d_none
+  display: none!important
+
+.flex_element
+  display: flex
+
+  &.align_center
+    align-items: center
+
+  &.justify_center
+    justify-content: center
+
+// HEADER STYLES
+
+.main_header
+  padding: 15px 0
+  width: 100%
+  //background-color: #fff
+
+.logo_header_col
+  order: 2
+  position: relative
+  z-index: 20
+
+.header_phone_col
+  order: 3
+  position: relative
+  z-index: 20
+
+.burger_col
+  order: 1
+  position: relative
+  z-index: 20
+
+.mnu_button
+  cursor: pointer
+  display: flex
+  align-items: center
+
+  &_txt
+    margin-left: 30px
+    font-size: 18px
+    font-weight: bold
+
+.nav_shop_col_hidden
+  display: none
+
+.header_phone_wr
+  text-align: center
+
+.header_phone
+  display: inline-block
+  margin: auto
+  text-decoration: none
+  font-weight: bold
+  color: $text
+
+  img
+    margin-right: 20px
+
+  &:hover
+    text-decoration: none
+    color: $text
+
+.logo
+
+  img
+    max-width: 95px
+    display: block
+    margin: auto
+
+.nav_shop
+  display: flex
+  justify-content: flex-end
+  width: 100%
+
+  &_items
+    display: inline-block
+
+  ul, li
+    margin: 0
+    padding: 0
+    list-style-type: none
+
+  .nav_shop_items
+    display: flex
+
+    img
+      width: 24px
+      height: 24px
+      margin-left: 25px
+
+  .user_acc
+
+    &_link
+      color: $text
+
+      &:hover
+        text-decoration: none
+
+  .login_text
+    margin-left: 15px
+
+
+// HEADER FOR HOME PAGE
+
+.main_header_home
+  z-index: 20
+  position: fixed
+  max-width: 30%
+  right: 55%
+  transition: max-width .5s ease, right .5s ease, top .5s ease, box-shadow .3s ease
+
+  &.scroll_header
+    top: 0
+    background-color: #fff
+    max-width: 100%
+    z-index: 50
+    right: initial
+    box-shadow: 0 5px 10px #e8e8e89c
+    
+    .d_none
+      display: flex !important
+
+    .logo_header_col
+      order: 3
+      position: relative
+      left: -17%
+
+    .header_phone_col
+      order: 2
+      position: relative
+      left: -10%
+
+    .burger_col
+      order: 1
+
+    .nav_shop_col
+      order: 4
+
+.main_header_itms
+  justify-content: space-between
+
+
+
+
+
+// burger
+
+.hamburger
+  padding: 0
+  outline: none
+
+  &:hover
+    opacity: 1
+
+.hamburger-inner
+  margin-top: -4px
+
+.hamburger-box
+  height: auto
+  width: 35px
+
+.hamburger-inner
+  width: 15px
+
+.hamburger--collapse .hamburger-inner
+  bottom: -6px
+
+.hamburger-inner:after, .hamburger-inner:before
+  width: 35px
+  border-radius: 30px
+
+.hamburger--collapse.is-active .hamburger-inner
+  width: 100%
+
+
+// scroll halves
+
+.s_halves
+  display: flex
+  width: 100%
+
+  .scroll_bl
+    width: 47%
+    min-height: 100vh
+    box-sizing: border-box
+    overflow: hidden
+
+  .scroll_img_block
+    transition: top .5s ease
+    width: 53%
+    right: 0
+    top: 0
+    position: fixed
+    height: 100vh
+    background-image: url("/image/catalog/home/chef.png")
+    background-position: center
+    background-size: cover
+
+  .s_scroll
+    background-color: #F5F2F0
+    position: relative
+    min-height: 100vh
+
+.s_scroll
+  display: flex
+  align-items: center
+  justify-content: flex-end
+
+  .section_txt
+    max-width: 67%
+    position: relative
+    display: flex
+    justify-content: space-between
+    width: 100%
+    z-index: 21
+
+    .mouse
+      position: absolute
+      bottom: -80%
+
+      svg
+        height: 68px
+
+    h1
+      max-width: 450px
+      font-weight: bold
+      font-size: 60px
+      line-height: 1.2
+
+
+  .sect_title_wr
+    position: relative
+
+    a
+      margin-top: 25px
+
+  .slider_title
+    white-space: nowrap
+    position: relative
+    left: 16%
+    font-weight: bold
+    font-size: 16px
+    transform: rotate(-90deg)
+
+    span
+      color: #8c8a88
+
+.sect_adv
+  max-width: 600px
+  position: relative
+  left: -40px
+
+.sect_adv_itm
+
+  &:not(:last-child)
+    margin-bottom: 100px
+
+  .adv_img
+
+    img
+      display: block
+      width: 75px
+      height: 75px
+
+  .adv_descr
+
+    .adv_caption
+      font-size: 24px
+      line-height: 1.3
+      font-weight: bold
+      margin-bottom: 15px
+      max-width: 326px
+
+    p
+      line-height: 1.2
+      font-size: 18px
+
+.s_scroll_2
+
+  .slider_title
+    left: 38%
+
+
+#mouse_down
+  transition: transform .3s ease
+  animation: mouse_down 1.5s linear infinite
+
+#mouse_down_2
+  transition: transform .3s ease
+  animation: mouse_down_2 2s linear infinite
+
+#waves, #waves2
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  z-index: 10
+
+
+
+
+
+
+
+#test_footer
+  width: 400px
+  height: 500px
+  overflow: auto
+
+
+// mouse animation
+
+@keyframes mouse_down
+  0%
+    transform: translateY(0px)
+  50%
+    transform: translateY(2px)
+  100%
+    transform: translateY(0px)
+
+@keyframes mouse_down_2
+  0%
+    transform: translateY(0px)
+  50%
+    transform: translateY(8px)
+  100%
+    transform: translateY(0px)
+
+
+@import "media"
+

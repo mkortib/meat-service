@@ -1,0 +1,16 @@
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: account in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 29
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: text_account in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 29
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: text_account in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 29
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: logged in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 31
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: register in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 38
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: text_register in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 38
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: login in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 39
+2019-07-01 15:26:48 - PHP Notice:  Undefined variable: text_login in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 39
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: account in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 29
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: text_account in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 29
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: text_account in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 29
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: logged in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 31
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: register in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 38
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: text_register in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 38
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: login in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 39
+2019-07-01 15:32:53 - PHP Notice:  Undefined variable: text_login in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 39
