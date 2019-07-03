@@ -1,5 +1,5 @@
 
-<footer>
+<footer id="footer_check">
   <div class="container">
     <div class="row">
       <?php if ($informations) { ?>

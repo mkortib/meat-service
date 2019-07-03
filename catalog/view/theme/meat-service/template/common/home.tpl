@@ -82,9 +82,184 @@
 
 </section>
 
-<section id="test_footer">
+<div class="separator" id="stop_separator">
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem doloremque fugit ipsa necessitatibus quas tempore. Aut blanditiis consequatur dicta ipsam modi provident quasi voluptatum. Alias, assumenda ducimus ea earum hic in, magnam neque nobis odio officiis provident quasi quo repudiandae suscipit veritatis. Hic id illum maiores nisi veritatis! Accusantium ad, ex necessitatibus perspiciatis rerum tenetur! Ad autem corporis cumque dolor facilis fuga inventore iste modi nemo nihil officiis perferendis possimus, praesentium quam quasi, saepe sapiente veritatis! A accusamus accusantium ad architecto assumenda atque beatae consequuntur cum dicta doloribus eaque eos eveniet ex fuga magni maxime molestias non numquam obcaecati odio officiis omnis possimus quos rem repellat, repellendus reprehenderit repudiandae sunt veniam voluptatibus. Blanditiis dignissimos, esse incidunt nisi reiciendis repellendus ut voluptate voluptates. A aliquid asperiores commodi consectetur consequatur, dolor ea hic laboriosam modi nobis, placeat quasi repellendus sapiente similique tenetur veniam voluptates. Consequatur distinctio expedita illum magni modi nesciunt pariatur possimus quisquam vero voluptatum. Ab aliquam architecto, asperiores culpa debitis ducimus eaque, earum eveniet hic ipsum iste nobis optio praesentium quae quaerat quisquam reprehenderit? Adipisci, autem ducimus eaque earum eum harum in ipsum, itaque magnam minima numquam officia quaerat sequi. Blanditiis earum enim ipsam maxime saepe. A ab alias animi at autem commodi consequuntur, cumque, deserunt eum exercitationem id iusto laboriosam nesciunt nobis nulla odio optio placeat porro quae quis quos recusandae rem repellat sed totam ullam vel veniam? Accusantium consequatur ea error, esse fugiat, officia, optio quaerat quos saepe sint tenetur unde velit voluptatem! Alias animi commodi, consequatur corporis fugit, magni natus, numquam obcaecati officiis quae quam quasi quibusdam quis quod reiciendis repellat repellendus ut voluptatum. Dolor, dolorem exercitationem ipsam quam velit voluptas voluptatibus! Ad architecto eaque maiores nemo numquam omnis quae quasi rerum similique, sit? Eligendi enim incidunt soluta. Ex itaque magnam nobis recusandae tempore. Autem beatae, nostrum?
+<section class="s_double_color s_main_prod">
+
+    <div class="sect_side_bg sect_side_bg_left"></div>
+
+    <div class="container-fluid">
+
+        <div class="row flex_element">
+
+            <div class="col-md-1">
+                <div class="slider_title">03 Основна продукція / <span>05</span></div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="meat_img">
+                    <img src="/image/catalog/home/meat-section.png" alt="Стабільно висока якість та неперевершені смакові властивості">
+                </div>
+            </div>
+            
+            <div class="col-md-5 flex_element align_center">
+                <div class="main_prod_txt">
+                    <div class="txt_title">Стабільно висока якість та неперевершені смакові властивості</div>
+                    <div class="txt_wr">
+                        “Повний фарш - м’ясний сервіс” про понує підприємствам громадського харчування продукцію від провідних українських виробників:
+                    </div>
+                    <div class="meat_animals">
+                        <div class="itm_animal">
+                            <img src="/image/catalog/icons/chicken.svg" alt="Курятина">
+                            Курятина
+                        </div>
+                        <div class="itm_animal">
+                            <img src="/image/catalog/icons/pig.svg" alt="Свинина">
+                            Свинина
+                        </div>
+                        <div class="itm_animal">
+                            <img src="/image/catalog/icons/turkey.svg" alt="Індик">
+                            Індик
+                        </div>
+                    </div>
+                    <a href="#" class="button">Перейти в каталог</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
 </section>
+
+<section class="s_double_color s_get_price">
+
+    <div class="sect_side_bg sect_side_bg_right"></div>
+
+    <div class="container-fluid">
+
+        <div class="row flex_element">
+
+            <div class="col-md-1">
+                <div class="slider_title">04 Отримати прайс / <span>06</span></div>
+            </div>
+
+            <div class="col-md-5 flex_element align_center">
+                <form class="form_get_price">
+                    
+                    <div class="form_title">Заповніть форму</div>
+                    <div class="form_descr">Отримайте прайс та унікальні умови співпраці</div>
+
+                    <input type="text" name="name" class="form_name" placeholder="Ім'я">
+                    <input type="text" placeholder="Телефон">
+                    <a class="popup-with-zoom-anim button button_popup" href="#small-dialog">
+                        Отримати прайс
+                        <img src="/image/catalog/icons/viber.svg" alt="">
+                        <img src="/image/catalog/icons/telegram-logo.svg" alt="">
+                    </a>
+
+                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                        <h1>Dialog example</h1>
+                        <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</p>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <div class="meat_img">
+                    <img src="/image/catalog/home/meat-section-2.png" alt="отримайте прайс та унікальні умови співпраці">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="s_gallery">
+    
+    <div class="gallery_wr">
+        <div class="gallery_img">
+            <img src="/image/catalog/home/gallery-img-1.png" alt="meat-service">
+        </div>
+        <div class="gallery_img">
+            <img src="/image/catalog/home/gallery-img-1.png" alt="meat-service">
+        </div>
+    </div>
+
+    <div class="gallery_nav">
+        <div class="nav_left">
+            <img src="/image/catalog/icons/left-arrow.svg" alt="">
+        </div>
+        <div class="nav_right">
+            <img src="/image/catalog/icons/left-arrow.svg" class="arr_right" alt="">
+        </div>
+    </div>
+    
+</section>
+
+<section class="s_partners">
+
+    <div class="container-fluid">
+
+        <div class="row flex_element">
+
+            <div class="col-md-1">
+                <div class="slider_title">04 Отримати прайс / <span>06</span></div>
+            </div>
+
+            <div class="col-md-11">
+                <div class="partners_itms">
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/chick-fil-a.png" alt="chick-fill-a логотип">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/zdoroviy-gluzd.png" alt="здоровий глузд">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/vrebro.png" alt="в ребро">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/vodka-grill.png" alt="vodka-grill">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/chick-fil-a.png" alt="chick-fill-a логотип">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/zdoroviy-gluzd.png" alt="здоровий глузд">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/vrebro.png" alt="в ребро">
+                        </div>
+
+
+                        <div class="img_partner_wr">
+                            <img src="/image/catalog/home/vodka-grill.png" alt="vodka-grill">
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</div>
 
 <?php echo $footer; ?>
