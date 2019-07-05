@@ -32,6 +32,8 @@ gulp.task('js', function() {
 		'catalog/view/theme/meat-service/libs/viewport-checker/jquery.viewportchecker.min.js',
 		'catalog/view/theme/meat-service/libs/fullpage/fullpage.min.js',
 		'catalog/view/theme/meat-service/libs/slick-carousel/slick/slick.min.js',
+		'catalog/view/theme/meat-service/libs/anime.js/anime.min.js',
+		'catalog/view/theme/meat-service/libs/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js',
 		// 'catalog/view/theme/meat-service/libs/smooth-scrollbar/smooth-scrollbar.js',
 		'catalog/view/theme/meat-service/js/theme.js' // always at the end
 		])

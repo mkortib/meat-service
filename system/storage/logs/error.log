@@ -14,3 +14,6 @@
 2019-07-01 15:32:53 - PHP Notice:  Undefined variable: text_register in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 38
 2019-07-01 15:32:53 - PHP Notice:  Undefined variable: login in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 39
 2019-07-01 15:32:53 - PHP Notice:  Undefined variable: text_login in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\home.tpl on line 39
+2019-07-04 11:00:01 - PHP Warning:  unlink(W:/domains/meat-servise/system/storage/modification/system/engine/loader.php): Permission denied in W:\domains\meat-servise\admin\controller\extension\modification.php on line 101
+2019-07-04 11:00:01 - PHP Warning:  rmdir(W:/domains/meat-servise/system/storage/modification/system/engine): Directory not empty in W:\domains\meat-servise\admin\controller\extension\modification.php on line 105
+2019-07-04 11:00:01 - PHP Warning:  rmdir(W:/domains/meat-servise/system/storage/modification/system): Directory not empty in W:\domains\meat-servise\admin\controller\extension\modification.php on line 105
