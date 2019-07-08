@@ -46,7 +46,7 @@ gulp.task('js', function() {
 // Наблюдение за файлами
 
 gulp.task('watch', ['sass', 'js', 'browser-sync'], function() {
-	gulp.watch('catalog/view/theme/meat-service/stylesheet/stylesheet.sass', ['sass']);
+	gulp.watch('catalog/view/theme/meat-service/stylesheet/**/*.sass', ['sass']);
 	gulp.watch('catalog/view/theme/meat-service/js/theme.js', ['js']);
 	gulp.watch('catalog/view/theme/meat-service/template/**/*.tpl', browserSync.reload);
 	// gulp.watch('catalog/view/theme/meat-service/js/**/*.js', browserSync.reload);

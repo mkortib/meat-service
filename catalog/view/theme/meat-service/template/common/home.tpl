@@ -4,12 +4,12 @@
         <section class="s_scroll s_scroll_1">
             <canvas id="waves"></canvas>
             <div class="section_txt">
-                <div class="slider_title">01 Головна / <span>05</span></div>
+                <div class="slider_title hidden-md hidden-md hidden-sm hidden-xs">01 Головна / <span>05</span></div>
                 <div class="sect_title_wr">
                     <h1 class="ml13">Надійний партнер для HoReCa</h1>
                     <a href="#" class="button ml14">Дізнатися більше</a>
                 </div>
-                <div class="mouse">
+                <div class="mouse hidden-md hidden-md hidden-sm hidden-xs">
                     <svg width="24" height="53" viewBox="0 0 24 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.3">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.4 26.9286V12.0714C22.4 6.29348 17.7438 1.60952 12 1.60952C6.25624 1.60952 1.6 6.29348 1.6 12.0714V26.9286C1.6 32.7065 6.25624 37.3905 12 37.3905C17.7438 37.3905 22.4 32.7065 22.4 26.9286ZM12 0C5.37258 0 0 5.40456 0 12.0714V26.9286C0 33.5954 5.37258 39 12 39C18.6274 39 24 33.5954 24 26.9286V12.0714C24 5.40456 18.6274 0 12 0Z" fill="#222220"/>
@@ -21,19 +21,26 @@
             </div>
         </section>
         <section class="s_scroll s_scroll_2">
-            <canvas id="waves2" width="1920" height="947"></canvas>
+            <canvas id="waves2" width="1920" height="1200"></canvas>
             <div class="section_txt">
-                <div class="slider_title">02 Переваги / <span>05</span></div>
+                <div class="slider_title">
+                    <div class="desct_title hidden-xs hidden-sm">
+                        02 Переваги / <span>05</span>
+                    </div>
+                    <div class="mob_title">
+                        Переваги
+                    </div>
+                </div>
                 <div class="sect_adv">
                     <div class="container-fluid">
                         
                         <div class="row sect_adv_itm sect_adv_itm_rev flex_element">
-                            <div class="col-md-3 flex_element align_center">
+                            <div class="col-xs-3 flex_element align_center">
                                 <div class="adv_icon">
                                     <img src="/image/catalog/icons/eco.svg" alt="Висока якість та натуральність">
                                 </div>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xs-9">
                                 <div class="adv_descr">
                                     <div class="adv_caption">Висока якість та натуральність</div>
                                     <p>Контроль на всіх етапах виробництва - гарантія якості та натуральності. М’ясо має високі смакові властивості</p>
@@ -42,13 +49,13 @@
                         </div>
 
                         <div class="row sect_adv_itm sect_adv_itm_rev flex_element">
-                            <div class="col-md-9">
+                            <div class="col-xs-9">
                                 <div class="adv_descr">
                                     <div class="adv_caption">Зручний сервіс замовлення нашої продукції</div>
                                     <p>Є можливість замовлення продукції через персонального менеджера, або диспетчера.</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 flex_element align_center">
+                            <div class="col-xs-3 flex_element align_center">
                                 <div class="adv_icon">
                                     <img src="/image/catalog/icons/support-man.svg" alt="Зручний сервіс замовлення нашої продукції">
                                 </div>
@@ -56,12 +63,12 @@
                         </div>
 
                         <div class="row sect_adv_itm sect_adv_itm_rev flex_element">
-                            <div class="col-md-3 flex_element align_center">
+                            <div class="col-xs-3 flex_element align_center">
                                 <div class="adv_icon">
                                     <img src="/image/catalog/icons/delivery-truck.svg" alt="Своєчасна доставка спеціалізованим авто">
                                 </div>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xs-9">
                                 <div class="adv_descr">
                                     <div class="adv_caption">Своєчасна доставка спеціалізованим авто</div>
                                     <p>Сучасна система логістики гарантують доставку продукції вже на наступний день після замовлення</p>
@@ -70,13 +77,13 @@
                         </div>
 
                         <div class="row sect_adv_itm sect_adv_itm_rev flex_element">
-                            <div class="col-md-9">
+                            <div class="col-xs-9">
                                 <div class="adv_descr">
                                     <div class="adv_caption">Вакуумоване на виробництві</div>
                                     <p>Свіже м’ясо не обвітрюється та не псується, має мінімальні втрати при термообробці</p>
                                 </div>
                             </div>
-                            <div class="col-md-3 flex_element align_center">
+                            <div class="col-xs-3 flex_element align_center">
                                 <div class="adv_icon">
                                     <img src="/image/catalog/icons/meat.svg" alt="Вакуумоване на виробництві">
                                 </div>
@@ -92,7 +99,7 @@
     <div class="scroll_img_block">
         <div class="scroll_img_slider">
             <div class="scroll_img" style="background-image: url(/image/catalog/home/chef.png)"></div>
-            <div class="scroll_img" style="background-image: url(/image/catalog/home/chef.png)"></div>
+            <div class="scroll_img" style="background-image: url(/image/catalog/home/meat-2.png)"></div>
             <div class="scroll_img" style="background-image: url(/image/catalog/home/chef.png)"></div>
         </div>
     </div>
@@ -109,17 +116,17 @@
 
         <div class="row flex_element">
 
-            <div class="col-md-1">
+            <div class="col-sm-1">
                 <div class="slider_title">03 Основна продукція / <span>05</span></div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-sm-6 flex_element flex_dir align_center justify_center">
                 <div class="meat_img">
                     <img src="/image/catalog/home/meat-section.png" alt="Стабільно висока якість та неперевершені смакові властивості">
                 </div>
             </div>
             
-            <div class="col-md-5 flex_element align_center">
+            <div class="col-sm-5 flex_element align_center">
                 <div class="main_prod_txt">
                     <div class="txt_title">Стабільно висока якість та неперевершені смакові властивості</div>
                     <div class="txt_wr">
@@ -157,12 +164,12 @@
 
         <div class="row flex_element">
 
-            <div class="col-md-1">
+            <div class="col-sm-1">
                 <div class="slider_title">04 Отримати прайс / <span>06</span></div>
             </div>
 
-            <div class="col-md-5 flex_element align_center">
-                <form class="form_get_price">
+            <div class="col-sm-5 flex_element align_center">
+                <form class="form_get_price" id="price_form">
                     
                     <div class="form_title">Заповніть форму</div>
                     <div class="form_descr">Отримайте прайс та унікальні умови співпраці</div>
@@ -226,12 +233,13 @@
 
                             </div>
 
-                            <button class="button" type="submit">Отримати прайс</button>
+                            <button class="button" type="submit" form="price_form">Отримати прайс</button>
 
                         </div>
 
-                        <div class="block_success">
-                            <p>Дякуємо за заявку!<br/>Наш менеджер зв'яжеться з вами найближчим часом</p>
+                        <div class="block_success d_none">
+                            <p>Дякуємо за заявку!</p>
+                            <span>Наш менеджер зв'яжеться з вами найближчим часом</span>
                         </div>
 
                     </div>
@@ -239,7 +247,7 @@
                 </form>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-sm-6 flex_element flex_dir align_center justify_center">
                 <div class="meat_img">
                     <img src="/image/catalog/home/meat-section-2.png" alt="отримайте прайс та унікальні умови співпраці">
                 </div>
@@ -279,11 +287,11 @@
 
         <div class="row flex_element">
 
-            <div class="col-md-1">
+            <div class="col-sm-1">
                 <div class="slider_title">04 Отримати прайс / <span>06</span></div>
             </div>
 
-            <div class="col-md-11">
+            <div class="col-sm-11">
                 <div class="partners_itms_wr">
 
                     <div class="partners_itms">
@@ -304,9 +312,9 @@
                             <img src="/image/catalog/home/vodka-grill.png" alt="vodka-grill">
                         </div>
 
-                        <div class="img_partner_wr">
-                            <img src="/image/catalog/home/chick-fil-a.png" alt="chick-fill-a логотип">
-                        </div>
+                        <!--*<div class="img_partner_wr">*-->
+                            <!--*<img src="/image/catalog/home/chick-fil-a.png" alt="chick-fill-a логотип">*-->
+                        <!--*</div>*-->
 
 
 

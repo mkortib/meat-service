@@ -214,6 +214,7 @@ body
     max-width: 100%
     z-index: 50
     right: initial
+    transition: padding .3s ease
     box-shadow: 0 5px 10px #e8e8e89c
     
     .d_none
@@ -238,8 +239,20 @@ body
 .main_header_itms
   justify-content: space-between
 
+.mob_title
+  font-size: 24px
+  padding-left: 20px
+  position: relative
 
-
+  &::before
+    width: 25px
+    position: absolute
+    height: 2px
+    background-color: $text
+    top: 50%
+    transform: translateY(-50%)
+    left: -20px
+    content: ''
 
 
 // burger
@@ -273,6 +286,7 @@ body
 
 
 // scroll halves
+
 
 .s_halves
   display: flex
@@ -367,18 +381,21 @@ body
   max-width: 600px
   position: relative
   left: -40px
+  padding-left: 109px
 
 .sect_adv_itm
 
   &:not(:last-child)
     margin-bottom: 100px
 
-  .adv_img
+  .adv_icon
 
     img
       display: block
       width: 75px
+      max-width: 100%
       height: 75px
+
 
   .adv_descr
 
@@ -391,12 +408,15 @@ body
 
     p
       line-height: 1.2
-      font-size: 18px
+      font-size: 16px
 
 .s_scroll_2
 
   .slider_title
-    left: 38%
+    position: absolute
+    transform: rotate(-90deg) translateY(-50%)
+    top: 50%
+    left: -44px
 
 
 #mouse_down
@@ -739,6 +759,7 @@ body
 .partners_itms
   display: flex
   position: relative
+  justify-content: space-between
   z-index: 2
 
 .img_partner_wr
@@ -762,7 +783,7 @@ body
   position: absolute
   top: 50%
   left: 50%
-  display: flex
+  display: none // FLEX
   justify-content: space-between
   transform: translate(-50%, -50%)
   width: 105%
@@ -782,6 +803,8 @@ body
 
   .seo_wr
     font-size: 14px
+    max-width: 85%
+    margin: auto
 
   .seo_button
     cursor: pointer
@@ -819,6 +842,7 @@ body
 
         &.hide_seo
           display: none
+
 
 // FOOTER
 
@@ -1074,7 +1098,13 @@ body
 
 
 .block_success
-  display: none
+  //display: none
+  font-size: 25px
+  max-width: 300px
+  font-weight: bold
+  text-align: center
+  color: $accent
+  line-height: 1.2
 
 
 // mian section h1 animation

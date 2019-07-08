@@ -5,18 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1562169100" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1562169100" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.2.1562169859" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1562170474" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1562343387" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1562343387" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="120" column="38" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
+            <state relative-caret-position="207">
+              <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding>
                 <element signature="e#11179#11185#0#HTML" expanded="true" />
               </folding>
@@ -44,11 +41,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="683" column="26" selection-start-line="683" selection-start-column="26" selection-end-line="683" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="1181" column="26" lean-forward="true" selection-start-line="1181" selection-start-column="26" selection-end-line="1181" selection-end-column="26" />
+            <state relative-caret-position="57">
+              <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -56,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+            <state relative-caret-position="194">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -70,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="251" column="63" lean-forward="true" selection-start-line="251" selection-start-column="63" selection-end-line="251" selection-end-column="63" />
+            <state relative-caret-position="125">
+              <caret line="826" column="34" selection-start-line="826" selection-start-column="34" selection-end-line="826" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -79,17 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="211" column="50" selection-start-line="211" selection-start-column="42" selection-end-line="211" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="224" column="94" selection-start-line="224" selection-start-column="94" selection-end-line="224" selection-end-column="94" />
+            <state relative-caret-position="226">
+              <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -106,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1058">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="207">
+              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -125,36 +131,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.img_partner_wr</find>
-      <find>.s_halves</find>
-      <find>}</find>
-      <find>{</find>
-      <find>;</find>
-      <find>sect_title_wr</find>
-      <find>h1</find>
-      <find>viewportChecker</find>
-      <find>.button</find>
-      <find>.ml13</find>
-      <find>scroll_img</find>
-      <find>view</find>
-      <find>mob_mnu_wr</find>
-      <find>.section_mnu</find>
-      <find>scroll_img_block</find>
-      <find>call</find>
-      <find>butt</find>
-      <find>.button_popup</find>
-      <find>.call_link_col</find>
-      <find>button_popup</find>
-      <find>.form_get_price</find>
-      <find>$blue</find>
-      <find>button</find>
       <find>radio_</find>
       <find>dialo</find>
       <find>.form_soc</find>
-      <find>class=&quot;button</find>
       <find>bur</find>
       <find>.logo</find>
       <find>input</find>
+      <find>popup_</find>
+      <find>magnific</find>
+      <find>block_success</find>
+      <find>.sect_adv</find>
+      <find>.section_txt</find>
+      <find>viber</find>
+      <find>part</find>
+      <find>adv_descr</find>
+      <find>.partners_itms</find>
+      <find>partners_nav</find>
+      <find>class=&quot;button</find>
+      <find>call_link_col</find>
+      <find>partne</find>
+      <find>.img_partner_wr</find>
+      <find>.mnu_button_txt</find>
+      <find>call_link_col</find>
+      <find>anime</find>
+      <find>.s_seo</find>
+      <find>meat</find>
+      <find>getContext</find>
+      <find>scroll_header</find>
+      <find>перева</find>
+      <find>.footer_mnu_col</find>
+      <find>.nav_shop_items</find>
     </findStrings>
     <replaceStrings>
       <replace>$accent</replace>
@@ -171,15 +177,15 @@
       <list>
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass" />
         <option value="$PROJECT_DIR$/catalog/controller/common/home.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_libs.sass" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass" />
       </list>
     </option>
   </component>
@@ -189,7 +195,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -382,21 +388,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561979940073</updated>
-      <workItem from="1561979942556" duration="106690000" />
+      <workItem from="1561979942556" duration="135693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106690000" />
+    <option name="totallyTimeSpent" value="135693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Gulp" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24840085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -445,13 +451,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/storage/cache/cache.currency.1562070421">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -504,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="26" selection-start-line="16" selection-start-column="2" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -557,41 +549,48 @@
     <entry file="file://$PROJECT_DIR$/image/catalog/icons/telegram-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="211" column="50" selection-start-line="211" selection-start-column="42" selection-end-line="211" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="207">
+          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="251" column="63" lean-forward="true" selection-start-line="251" selection-start-column="63" selection-end-line="251" selection-end-column="63" />
+        <state relative-caret-position="226">
+          <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="120" column="38" selection-start-line="120" selection-start-column="38" selection-end-line="120" selection-end-column="38" />
+        <state relative-caret-position="207">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
             <element signature="e#11179#11185#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="826" column="34" selection-start-line="826" selection-start-column="34" selection-end-line="826" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="172" column="38" lean-forward="true" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+        <state relative-caret-position="194">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -602,8 +601,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1181" column="26" lean-forward="true" selection-start-line="1181" selection-start-column="26" selection-end-line="1181" selection-end-column="26" />
+        <state relative-caret-position="57">
+          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="683" column="26" selection-start-line="683" selection-start-column="26" selection-end-line="683" selection-end-column="26" />
         </state>
       </provider>
     </entry>
