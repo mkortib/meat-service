@@ -27,9 +27,9 @@
                     <div class="desct_title hidden-xs hidden-sm">
                         02 Переваги / <span>05</span>
                     </div>
-                    <div class="mob_title">
-                        Переваги
-                    </div>
+                    <!--*<div class="mob_title">*-->
+                        <!--*Переваги*-->
+                    <!--*</div>*-->
                 </div>
                 <div class="sect_adv">
                     <div class="container-fluid">
@@ -117,7 +117,10 @@
         <div class="row flex_element">
 
             <div class="col-sm-1">
-                <div class="slider_title">03 Основна продукція / <span>05</span></div>
+                <div class="slider_title">
+                    <div class="hidden-xs visible-sm-block visible-md-block visible-lg-block">03 Основна продукція / <span>05</span></div>
+                    <div class="mob_sect_title hidden-sm hidden-md hidden-lg">Основна продукція</div>
+                </div>
             </div>
 
             <div class="col-sm-6 flex_element flex_dir align_center justify_center">
@@ -126,7 +129,7 @@
                 </div>
             </div>
             
-            <div class="col-sm-5 flex_element align_center">
+            <div class="col-xs-12 col-sm-5 flex_element align_center">
                 <div class="main_prod_txt">
                     <div class="txt_title">Стабільно висока якість та неперевершені смакові властивості</div>
                     <div class="txt_wr">
@@ -165,10 +168,11 @@
         <div class="row flex_element">
 
             <div class="col-sm-1">
-                <div class="slider_title">04 Отримати прайс / <span>06</span></div>
+                <div class="hidden-xs visible-sm-block visible-md-block visible-lg-block slider_title">04 Отримати прайс / <span>06</span></div>
+                <div class="mob_sect_title hidden-sm hidden-md hidden-lg">Отримати прайс</div>
             </div>
 
-            <div class="col-sm-5 flex_element align_center">
+            <div class="col-xs-12 col-sm-5 flex_element align_center order_2">
                 <form class="form_get_price" id="price_form">
                     
                     <div class="form_title">Заповніть форму</div>
@@ -247,7 +251,7 @@
                 </form>
             </div>
 
-            <div class="col-sm-6 flex_element flex_dir align_center justify_center">
+            <div class="col-sm-6 flex_element flex_dir align_center justify_center order_1">
                 <div class="meat_img">
                     <img src="/image/catalog/home/meat-section-2.png" alt="отримайте прайс та унікальні умови співпраці">
                 </div>
@@ -288,7 +292,8 @@
         <div class="row flex_element">
 
             <div class="col-sm-1">
-                <div class="slider_title">04 Отримати прайс / <span>06</span></div>
+                <div class="mob_sect_title hidden-sm hidden-md hidden-lg">Наші партнери</div>
+                <div class="hidden-xs visible-sm-block visible-md-block visible-lg-block  slider_title">05 Наші партнери / <span>05</span></div>
             </div>
 
             <div class="col-sm-11">
@@ -311,12 +316,6 @@
                         <div class="img_partner_wr">
                             <img src="/image/catalog/home/vodka-grill.png" alt="vodka-grill">
                         </div>
-
-                        <!--*<div class="img_partner_wr">*-->
-                            <!--*<img src="/image/catalog/home/chick-fil-a.png" alt="chick-fill-a логотип">*-->
-                        <!--*</div>*-->
-
-
 
                     </div>
 
@@ -345,8 +344,6 @@
 <section class="s_seo">
     <div class="container-fluid">
         <div class="seo_wr seo_close">
-            <p>“Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні. “Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні...“Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні</p>
-            <p>“Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні. “Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні...“Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні</p>
             <p>“Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні. “Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні...“Повний фарш - м’ясний сервіс” ТМ - виробник м’яса та надійний партнер для HoReCa. Ми контролюємо виробництво впродовж усього ланцюга створення продукту. Гарантуємо стабільно високу якість і неперевершені смакові властивості. Готуємо індивідуальні</p>
         </div>
         <div class="seo_button">

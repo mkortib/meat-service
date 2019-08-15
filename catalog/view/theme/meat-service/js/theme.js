@@ -160,18 +160,20 @@ $(function() {
     //  Anime,js init
 
 
-    anime.timeline({loop: false})
-        .add({
-            targets: '.ml13',
-            translateY: [100,0],
-            translateZ: 0,
-            opacity: [0,1],
-            easing: "easeOutExpo",
-            duration: 3000,
-            delay: function(el, i) {
-                return 300 + 30 * i;
-            }
-        })
+    if( $(window).width() > 768 ) {
+
+        anime.timeline({loop: false})
+            .add({
+                targets: '.ml13',
+                translateY: [100, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                easing: "easeOutExpo",
+                duration: 3000,
+                delay: function (el, i) {
+                    return 300 + 30 * i;
+                }
+            })
 
         anime({
             targets: '.ml14',
@@ -183,71 +185,73 @@ $(function() {
             delay: 1000
         });
 
-    anime({
-        targets: '.scroll_img_slider ',
-        translateX: [-100, 0],
-        translateZ: 0,
-        opacity: [0, 1],
-        easing: "easeOutQuad",
-        duration: 1500
-    })
+        anime({
+            targets: '.scroll_img_slider ',
+            translateX: [-100, 0],
+            translateZ: 0,
+            opacity: [0, 1],
+            easing: "easeOutQuad",
+            duration: 1500
+        })
 
 
-    $('.s_main_prod').viewportChecker({
-        offset: '30%',
-        callbackFunction: function (elem, action) {
+        $('.s_main_prod').viewportChecker({
+            offset: '30%',
+            callbackFunction: function (elem, action) {
 
-            if (action == 'add') {
+                if (action == 'add') {
 
-                anime({
-                    targets: '.sect_side_bg_left',
-                    marginLeft: [-250, 0],
-                    opacity: [0, 1],
-                    easing: "easeOutQuad",
-                    duration: 2000
-                });
+                    anime({
+                        targets: '.sect_side_bg_left',
+                        marginLeft: [-250, 0],
+                        opacity: [0, 1],
+                        easing: "easeOutQuad",
+                        duration: 2000
+                    });
 
-                anime({
-                    targets: '.main_prod_txt',
-                    translateX: [250, 0],
-                    opacity: [0, 1],
-                    easing: "easeOutQuad",
-                    duration: 1500
-                });
+                    anime({
+                        targets: '.main_prod_txt',
+                        translateX: [250, 0],
+                        opacity: [0, 1],
+                        easing: "easeOutQuad",
+                        duration: 1500
+                    });
 
-            }
-
-        }
-
-    });
-
-    $('.s_get_price').viewportChecker({
-        offset: '30%',
-        callbackFunction: function (elem, action) {
-
-            if (action == 'add') {
-
-                anime({
-                    targets: '.sect_side_bg_right',
-                    marginRight: [-250, 0],
-                    opacity: [0, 1],
-                    easing: "easeOutQuad",
-                    duration: 2000
-                });
-
-                anime({
-                    targets: '.form_get_price',
-                    translateX: [-100, 0],
-                    opacity: [0, 1],
-                    easing: "easeOutQuad",
-                    duration: 1000
-                });
+                }
 
             }
 
-        }
+        });
 
-    });
+        $('.s_get_price').viewportChecker({
+            offset: '30%',
+            callbackFunction: function (elem, action) {
+
+                if (action == 'add') {
+
+                    anime({
+                        targets: '.sect_side_bg_right',
+                        marginRight: [-250, 0],
+                        opacity: [0, 1],
+                        easing: "easeOutQuad",
+                        duration: 2000
+                    });
+
+                    anime({
+                        targets: '.form_get_price',
+                        translateX: [-100, 0],
+                        opacity: [0, 1],
+                        easing: "easeOutQuad",
+                        duration: 1000
+                    });
+
+                }
+
+            }
+
+        });
+
+    }
 
     // inputs
 
@@ -826,75 +830,16 @@ $(function() {
 
     if ($(window).width() < 768) {
 
+        // var bgLeft = $('.s_main_prod').find('.sect_side_bg_left');
+        $('.s_main_prod').find('.sect_side_bg_left').appendTo($('.s_main_prod').find('.meat_img'));
+        $('.s_get_price').find('.sect_side_bg_right').appendTo($(this).find('.meat_img'));
+        $('.footer_mnu_col2').find('ul li').appendTo($('.footer_mnu_col1').find('ul'));
+        $('.viber').prepend($('.soc_footer'));
+        $('.wsf').parent().prepend($('.copy'));
+
         $('canvas').remove();
 
     }
-
-
-
-//# sourceURL=coffeescript
-
-    // Scroll behaviour
-
-    // var _win = $(window),
-    //     _rAF = window.requestAnimationFrame,
-    //     _cAF = window.cancelAnimationFrame,
-    //     _AF = undefined,
-    //     _log = $('.s_halves'),
-    //     _scroll_time = 1000,
-    //     _isMac = /Mac/i.test(navigator.userAgent),
-    //     _scroll_distance = 280;
-    //
-    // console.log(_isMac);
-    //
-    // function smoothScroll(){
-    //     _win.on('mousewheel DOMMouseScroll', function(e){
-    //         e.preventDefault();
-    //         // console.log(e);
-    //         e = e.originalEvent.wheelDelta / 120 || -e.originalEvent.detail / 3;
-    //
-    //         e = -parseInt(_scroll_distance * e);
-    //         log(e);
-    //
-    //         scrollToAnimation(_win, _scroll_time, {
-    //             distance: e,
-    //             ease: 'easeOut'
-    //         });
-    //     });
-    // }
-    // !_isMac && smoothScroll();
-    //
-    // function scrollToAnimation(o, time, opt){
-    //     var st = o.scrollTop(),
-    //         dis = opt.distance,
-    //         start = (new Date()).getTime();
-    //
-    //     time ? void(0) : time = 500;
-    //     _cAF(_AF);
-    //     animate();
-    //     function animate(){
-    //         var  now = (new Date()).getTime(),
-    //             elapsed = now - start,
-    //             fraction = elapsed / time;
-    //
-    //         if(fraction < 1){
-    //             var final = st + dis*Math.sin(fraction*Math.PI/2);
-    //             o.scrollTop(final);
-    //             // setTimeout(animate, Math.min(25, time - elapsed));
-    //             _AF = _rAF(animate);
-    //         }else{
-    //             log('Complete Scroll...');
-    //         }
-    //     }
-    //
-    // }
-    //_rAF(scrollToAnimation);
-
-    // function log(e){
-    //     _log.text(e);
-    // }
-
-
 
 
 });

@@ -571,6 +571,7 @@ body
   position: relative
 
   .meat_img
+    position: relative
 
     img
       max-width: 100%
@@ -633,7 +634,24 @@ body
       width: 24px
       margin-right: 15px
 
+.mob_sect_title
+  font-weight: bold
+  font-size: 24px
+  position: relative
+  line-height: 1
+  padding-left: 40px
+  margin-top: 20px
+  margin-bottom: -20px
 
+  &::after
+    content: ''
+    width: 25px
+    height: 2px
+    background-color: $text
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
 
 .s_get_price
 
@@ -884,6 +902,7 @@ body
 .soc_footer
 
   span
+    text-align: center
     font-weight: bold
     margin-bottom: 30px
     display: block
@@ -1187,7 +1206,22 @@ body
   button
     border: none
 
+// order flex
 
+.order_1
+  order: 1
+
+.order_2
+  order: 2
+
+.order_3
+  order: 3
+
+.order_4
+  order: 4
+
+.order_5
+  order: 5
 
 
 // Inputs

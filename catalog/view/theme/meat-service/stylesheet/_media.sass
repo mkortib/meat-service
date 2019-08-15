@@ -683,11 +683,135 @@
       li:not(:last-child)
         margin-right: 10px
 
+  .sect_side_bg
+
+    &.sect_side_bg_left
+      top: 50%
+      transform: translateY(-50%)
+      height: 115%
+
+  .main_prod_txt
+    max-width: 350px
+    margin: 50px auto 30px
+
+    .button
+      font-size: 16px
+      max-width: 100%
+
+
+  .s_double_color
+    margin: 100px 0 50px
+
+  .s_get_price
+    margin: 54px 0 50px
+
+    .mob_sect_title
+      margin-bottom: 54px
+      margin-top: 0
+
+    .form_get_price
+      margin: 50px auto 0
+      max-width: 350px
+
+      input
+        max-width: 100%
+
+    .form_descr
+      margin: 5px 0 20px
+
+  .footer_mnu_col
+
+    li
+      text-align: left
+
+    a
+      font-size: 12px
+      font-weight: bold
+
+  .viber
+    text-align: left
+    font-size: 12px
+
+    .button
+      font-size: 12px
+
+      
+  .soc_footer
+    margin-bottom: 20px
+
+    span
+      margin-bottom: 10px
+      text-align: left
+
+    svg
+      width: 15px
+      height: 15px
+
+    ul
+      max-width: 80px
+      margin: 0
+
+  .wsf
+    padding-bottom: 20px
+
+  .s_seo
+    padding: 50px 0
+
+    .seo_button
+      margin: 30px auto 0
+
+      span
+        font-weight: bold
+
+  .copy
+    width: 100%
+    position: relative
+    padding-top: 20px
+    margin-top: 0
+    
+    &::after
+      content: ''
+      width: 120%
+      height: 1px
+      background-color: rgba(#2B2F31, .25)
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translateX(-50%)
+
+  .s_partners
+    padding: 60px 0 30px
+
+    .mob_sect_title
+      margin-bottom: 30px
+      margin-top: 0
+
 
 /* Extra Small Devices, Phones */
-//@media only screen and (max-width : 480px)
-  //.flex_element
-  //  flex-direction: column
+@media only screen and (max-width : 480px)
+  .header_phone
+    img
+      display: none
+
+  .main_prod_txt
+    max-width: 250px
+
+  .s_scroll_2
+    padding: 50px 0
+
+  .s_get_price
+
+    .form_descr
+      font-size: 14px
+      max-width: 200px
+
+    .form_get_price
+      max-width: 230px
+
+  .s_gallery
+
+    .gallery_img
+      height: 250px
 
 
 /* Custom, iPhone Retina */
