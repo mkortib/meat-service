@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>Cache Remove</name>
+	<code>CacheRemove20161207</code>
+	<version>2.1.0</version>
+	<author>Serge Tkach mod for OC 2.3</author>
+	<link>http://sergetkach.com/</link>
+	<file path="admin/language/en-gb/common/header.php">
+		<operation>
+			<search><![CDATA[$_['text_review']]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove'] = 'Cache Remove';]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/en-en/common/header.php">
+		<operation>
+			<search><![CDATA[$_['text_review']]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove'] = 'Cache Remove';]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/ru-ru/common/header.php">
+		<operation>
+			<search><![CDATA[$_['text_review']]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove'] = 'Очистка кеша';]]></add>
+		</operation>
+	</file>
+	<file path="admin/controller/common/column_left.php">
+		<operation>
+			<search><![CDATA[// Stats]]></search>
+			<add position="before"><![CDATA[			// customized by CacheRemove . begin
+			if ($report) {
+				$data['menus'][] = array(
+					'id'       => 'menu-cache',
+					'icon'	   => 'fa-paint-brush',
+					'name'	   => $this->language->get('Очистка кеша'),
+					'href'     => $this->url->link('extension/module/cacheremove', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}
+			// customized by CacheRemove . end
+			]]></add>
+		</operation>
+	</file>
+
+
+</modification>

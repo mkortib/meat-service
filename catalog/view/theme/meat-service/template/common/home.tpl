@@ -296,7 +296,7 @@
                 <div class="hidden-xs visible-sm-block visible-md-block visible-lg-block  slider_title">05 Наші партнери / <span>05</span></div>
             </div>
 
-            <div class="col-sm-11">
+            <div class="col-xs-12 col-sm-11">
                 <div class="partners_itms_wr">
 
                     <div class="partners_itms">
@@ -309,11 +309,11 @@
                             <img src="/image/catalog/home/zdoroviy-gluzd.png" alt="здоровий глузд">
                         </div>
 
-                        <div class="img_partner_wr">
+                        <div class="img_partner_wr hidden-xs visible-sm visible-md visible-lg">
                             <img src="/image/catalog/home/vrebro.png" alt="в ребро">
                         </div>
 
-                        <div class="img_partner_wr">
+                        <div class="img_partner_wr hidden-xs visible-sm visible-md visible-lg">
                             <img src="/image/catalog/home/vodka-grill.png" alt="vodka-grill">
                         </div>
 

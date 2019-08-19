@@ -17,3 +17,221 @@
 2019-07-04 11:00:01 - PHP Warning:  unlink(W:/domains/meat-servise/system/storage/modification/system/engine/loader.php): Permission denied in W:\domains\meat-servise\admin\controller\extension\modification.php on line 101
 2019-07-04 11:00:01 - PHP Warning:  rmdir(W:/domains/meat-servise/system/storage/modification/system/engine): Directory not empty in W:\domains\meat-servise\admin\controller\extension\modification.php on line 105
 2019-07-04 11:00:01 - PHP Warning:  rmdir(W:/domains/meat-servise/system/storage/modification/system): Directory not empty in W:\domains\meat-servise\admin\controller\extension\modification.php on line 105
+2019-08-19 10:57:42 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 10:59:06 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 10:59:07 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 10:59:08 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:30 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:31 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:31 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:32 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:32 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:33 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:33 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:00:33 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:03:48 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:04:00 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-19 11:47:05 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:47:05 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:52:14 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:52:14 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:52:17 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:52:17 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:20 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:20 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:22 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:23 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:24 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:24 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:24 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:24 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:24 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:24 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:55 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:54:55 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:33 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:33 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:34 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:34 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:36 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:55:36 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:56:35 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 11:56:35 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 66
+2019-08-19 12:00:24 - PHP Notice:  Undefined index: route in W:\domains\meat-servise\catalog\controller\common\header.php on line 130
+2019-08-19 12:02:33 - PHP Notice:  Undefined index: route in W:\domains\meat-servise\catalog\controller\common\header.php on line 130
+2019-08-19 12:14:47 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 67
+2019-08-19 12:14:47 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 67
+2019-08-19 12:15:27 - PHP Notice:  Undefined property: Template\PHP::$request in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 71
+2019-08-19 12:15:27 - PHP Notice:  Trying to get property of non-object in W:\domains\meat-servise\catalog\view\theme\meat-service\template\common\header.tpl on line 71
+2019-08-19 13:54:43 - PHP Notice:  Undefined offset: 2 in W:\domains\meat-servise\catalog\view\theme\default\template\common\column_left.tpl on line 11
+2019-08-19 14:01:59 - PHP Notice:  Undefined variable: products in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 2
+2019-08-19 14:06:49 - PHP Notice:  Undefined offset: 1 in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 2
+2019-08-19 14:07:55 - PHP Notice:  Undefined index: children in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 2
+2019-08-19 14:08:27 - PHP Notice:  Undefined offset: 1 in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 2
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:12:34 - PHP Notice:  Use of undefined constant ﻿ - assumed '﻿' in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 44
+2019-08-19 14:12:34 - PHP Notice:  Undefined variable: products in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 25
+2019-08-19 14:12:34 - PHP Warning:  Invalid argument supplied for foreach() in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 25
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:14 - PHP Notice:  Use of undefined constant ﻿ - assumed '﻿' in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 44
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:13:18 - PHP Notice:  Use of undefined constant ﻿ - assumed '﻿' in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 44
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Indirect modification of overloaded property ControllerExtensionModuleCategory::$data has no effect in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 14:14:07 - PHP Notice:  Use of undefined constant ﻿ - assumed '﻿' in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 44
+2019-08-19 14:40:53 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 34
+2019-08-19 14:47:13 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 34
+2019-08-19 14:48:53 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 34
+2019-08-19 14:48:53 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 36
+2019-08-19 14:50:32 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 40
+2019-08-19 14:52:17 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 40
+2019-08-19 14:52:39 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 40
+2019-08-19 14:52:40 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 40
+2019-08-19 14:52:50 - PHP Notice:  Undefined index: product_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 40
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: category_id in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 39
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: filter in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 40
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: sort in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 41
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: order in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 42
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: page in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 43
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: limit in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 43
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: limit in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 45
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:09:09 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 92
+2019-08-19 15:20:58 - PHP Notice:  Undefined variable: product_total in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 2
+2019-08-19 15:22:03 - PHP Notice:  Undefined variable: results in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 2
+2019-08-19 15:23:07 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 128
+2019-08-19 15:23:07 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 128
+2019-08-19 15:23:07 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 128
+2019-08-19 15:23:07 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 128
+2019-08-19 15:23:07 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 128
+2019-08-19 16:18:06 - PHP Notice:  Undefined variable: url in W:\domains\meat-servise\catalog\controller\extension\module\category.php on line 89
+2019-08-19 16:26:14 - PHP Notice:  Undefined index: href in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 10
+2019-08-19 16:26:14 - PHP Notice:  Undefined index: name in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 10
+2019-08-19 16:26:28 - PHP Notice:  Undefined index: href in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 10
+2019-08-19 16:26:28 - PHP Notice:  Undefined index: name in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 10
+2019-08-19 16:27:17 - PHP Notice:  Undefined index: href in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 11
+2019-08-19 16:27:17 - PHP Notice:  Undefined index: name in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 11
+2019-08-19 16:31:15 - PHP Notice:  Use of undefined constant name - assumed 'name' in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 11
+2019-08-19 17:29:47 - PHP Warning:  substr() expects at least 2 parameters, 1 given in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 8
+2019-08-19 17:48:19 - PHP Notice:  Undefined variable: img in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\category.tpl on line 18
+2019-08-19 18:47:42 - PHP Notice:  Array to string conversion in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 17
+2019-08-19 18:47:42 - PHP Notice:  Array to string conversion in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 17
+2019-08-19 18:47:42 - PHP Notice:  Array to string conversion in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 17

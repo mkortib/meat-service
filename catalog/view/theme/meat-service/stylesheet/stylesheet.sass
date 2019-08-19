@@ -204,7 +204,7 @@ body
 .main_header_home
   z-index: 20
   position: fixed
-  max-width: 30%
+  max-width: 37%
   right: 55%
   transition: max-width .5s ease, right .5s ease, top .5s ease, box-shadow .3s ease
 
@@ -345,10 +345,12 @@ body
     justify-content: space-between
     width: 100%
     z-index: 21
+    left: -40px
 
     .mouse
       position: absolute
       bottom: -80%
+      left: -15%
 
       svg
         height: 68px
@@ -369,7 +371,7 @@ body
   .slider_title
     white-space: nowrap
     position: relative
-    left: 16%
+    left: 2%
     font-weight: bold
     font-size: 16px
     transform: rotate(-90deg)
@@ -381,7 +383,7 @@ body
   max-width: 600px
   position: relative
   left: -40px
-  padding-left: 109px
+  padding-left: 48px
 
 .sect_adv_itm
 
@@ -416,7 +418,7 @@ body
     position: absolute
     transform: rotate(-90deg) translateY(-50%)
     top: 50%
-    left: -44px
+    left: -119px
 
 
 #mouse_down
@@ -1206,22 +1208,80 @@ body
   button
     border: none
 
-// order flex
+// CATALOG PAGE
 
-.order_1
-  order: 1
+.breadcrumb
+  background-color: transparent
+  padding-left: 0
 
-.order_2
-  order: 2
+  > li + li
 
-.order_3
-  order: 3
+    &:before
+      color: $grey
 
-.order_4
-  order: 4
+  a
+    color: $grey
+    text-decoration: none
 
-.order_5
-  order: 5
+  .active_breadcrumb
+
+    a
+      color: $text
+
+
+.list-group_custom
+  background-color: $light-grey
+  padding: 50px 30px
+
+  *
+    border: none
+    background-color: transparent
+
+  .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
+    background-color: transparent
+    color: $text
+
+    .arrow_cat
+      transform: translateY(-50%) rotate(0deg)
+
+  .list-group-item
+    font-size: 16px
+    position: relative
+
+    img
+      margin-right: 15px
+
+    .arrow_cat
+      position: absolute
+      right: 0
+      top: 50%
+      transform: translateY(-50%) rotate(180deg)
+
+
+  .category_head
+    font-size: 24px
+    font-weight: bold
+    color: $red
+    text-align: center
+    margin-bottom: 20px
+
+  .sub_cat
+    list-style-type: none
+    margin: 0px 0 0 0
+    padding: 0px 0 0 60px
+
+    a
+      color: $text
+      text-decoration: none
+      font-size: 14px
+      padding: 3px 0 5px
+      display: block
+
+.cat_row
+  padding-top: 20px
+
+.list-group_filter
+
 
 
 // Inputs

@@ -537,6 +537,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+
+  .s_scroll
+
+    .section_txt
+      left: 0
+
   .s_halves
     flex-direction: column
 
@@ -600,7 +606,7 @@
         transform: rotate(0)
 
       .section_txt
-        max-width: 95%
+        max-width: 100%
         flex-direction: column
 
   .scroll_header
@@ -786,6 +792,34 @@
       margin-bottom: 30px
       margin-top: 0
 
+  // order flex
+
+  .order_1
+    order: 1
+
+  .order_2
+    order: 2
+
+  .order_3
+    order: 3
+
+  .order_4
+    order: 4
+
+  .order_5
+    order: 5
+
+  .logo_footer_wr
+    display: none
+
+  .footer_mnu_col2_wr
+    display: none
+
+  .soc_footer_wr
+    display: none
+
+  .copy_wr
+    display: none
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
@@ -813,6 +847,77 @@
     .gallery_img
       height: 250px
 
+  // POPUP
+
+  .callback
+    max-width: 300px
+    padding: 40px 0 20px
+
+  .form_inside
+
+    .inputs
+
+      *
+        display: block
+        max-width: 90%
+        margin: 0 auto 10px
+
+    input, textarea
+      padding: 10px 15px
+      font-size: 16px
+
+    .title_popup
+      font-size: 20px
+
+    .form_descr_popup
+      font-size: 16px
+      padding: 0 20px
+      margin: 0 0 20px
+      line-height: 1.2
+
+  .popup_price
+    max-width: 300px
+    padding: 67px 0 35px
+
+    .button
+      max-width: 250px
+      margin: auto
+      font-size: 16px
+
+    .title_popup
+      font-size: 18px
+
+  .section_mnu
+
+    li
+      line-height: 1.5
+
+    a
+      font-size: 16px
+      display: block
+
+  .top_mob_mnu
+
+    .call_link_col
+
+      svg
+        width: 20px
+        height: 20px
+
+      .button
+        padding: 10px 0
+        font-size: 14px
+
+  .img_partner_wr
+
+    img
+      max-width: 70%
+
+  .s_seo
+    padding: 0px 0 50px
+
+    .seo_wr
+      text-align: justify
 
 /* Custom, iPhone Retina */
 //@media only screen and (max-width : 320px)

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>Cache Remove</name>
+  <code>CacheRemove20161207</code>
+  <version>2.1.0</version>
+  <author>Serge Tkach mod for OC 2.0 - 2.2</author>
+  <link>http://sergetkach.com/</link>
+
+	<file path="admin/language/english/common/header.php">
+		<operation>
+			<search><![CDATA[$_['text_review']            = 'Reviews';]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove']       = 'Cache Remove';]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/russian/common/header.php">
+		<operation>
+			<search><![CDATA[$_['text_review']          = 'Отзывы';]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove']     = 'Очистка кеша';]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/language/english/common/menu.php">
+		<operation>
+			<search><![CDATA[$_['text_review']                      = 'Reviews';]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove']                      = 'Clear Cache';]]></add>
+		</operation>
+	</file>
+	<file path="admin/language/russian/common/menu.php">
+		<operation>
+			<search><![CDATA[$_['text_review']                      = 'Отзывы';]]></search>
+			<add position="after"><![CDATA[$_['text_cacheremove']                      = 'Очистка кеша';]]></add>
+		</operation>
+	</file>
+
+	<file path="admin/controller/common/menu.php">
+		<operation>
+			<search><![CDATA[$data['text_review'] = $this->language->get('text_review');]]></search>
+			<add position="after"><![CDATA[$data['text_cacheremove'] = $this->language->get('text_cacheremove');]]></add>
+		</operation>
+		<operation>
+			<search><![CDATA[$data['review'] = $this->url->link('catalog/review', 'token=' . $this->session->data['token'], 'SSL');]]></search>
+			<add position="after"><![CDATA[$data['cacheremove'] = $this->url->link('module/cacheremove', 'token=' . $this->session->data['token'], 'SSL');]]></add>
+		</operation>
+	</file>
+	<file path="admin/view/template/common/menu.tpl">
+		<operation>
+			<search><![CDATA[<li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>]]></search>
+			<add position="before"><![CDATA[  <li><a href="<?php echo $cacheremove; ?>"><i class="fa fa-paint-brush fa-fw"></i> <span><?php echo $text_cacheremove; ?></span></a></li><!-- Cache Remove -->]]></add>
+		</operation>
+	</file>
+
+
+</modification>

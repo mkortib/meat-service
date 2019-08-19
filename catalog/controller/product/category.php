@@ -39,6 +39,11 @@ class ControllerProductCategory extends Controller {
 			$limit = $this->config->get($this->config->get('config_theme') . '_product_limit');
 		}
 
+		// custom
+
+
+
+
 		$data['breadcrumbs'] = array();
 
 		$data['breadcrumbs'][] = array(
@@ -114,6 +119,14 @@ class ControllerProductCategory extends Controller {
 			$data['button_continue'] = $this->language->get('button_continue');
 			$data['button_list'] = $this->language->get('button_list');
 			$data['button_grid'] = $this->language->get('button_grid');
+
+            // custom
+
+            $this->document->addScript('catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js');
+            $this->document->addStyle('catalog/view/javascript/jquery/magnific/magnific-popup.css');
+
+
+            // custom
 
 			// Set the last category breadcrumb
 			$data['breadcrumbs'][] = array(

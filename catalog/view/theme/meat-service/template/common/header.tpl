@@ -63,7 +63,20 @@
 <script src="catalog/view/theme/meat-service/js/theme.min.js"></script>
 </head>
 <body class="<?php echo $class; ?>" id="body">
-<?php if (!isset($this->request->get['route']) || (isset($this->request->get['route']) && $this->request->get['route'] == 'common/home')) { ?>
+
+
+<?php
+  $path = "common/home";
+  $url = $_SERVER['REQUEST_URI'];
+  if ($url == "/" or strripos($url, $path)) {
+    $is_home = TRUE;
+  }else{
+    $is_home = false;
+  }
+?>
+
+
+<?php if ($is_home) { ?>
 <!-- здесь вставить что-то только для главной страницы -->
 <header class="main_header main_header_home">
     <div class="container-fluid">
@@ -82,7 +95,7 @@
 
             <div class="header_phone_col flex_element align_center">
                 <div class="header_phone_wr">
-                    <a class="header_phone" href="tel:06666666"><img src="/image/catalog/icons/call-phone.svg" alt="">+38 044 123 45 67</a>
+                    <a class="header_phone" href="tel:0443922020"><img src="/image/catalog/icons/call-phone.svg" alt="">+38 044 392 20 20</a>
                 </div>
             </div>
 
@@ -97,7 +110,8 @@
                     <ul class="nav_shop_items">
                         <li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><img src="/image/catalog/icons/wishlist.svg" alt=""> </a></li>
                         <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><img src="/image/catalog/icons/basket.svg" alt=""> </a></li>
-                        <li class="dropdown user_acc"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle user_acc_link" data-toggle="dropdown"><img src="/image/catalog/icons/user.svg" alt=""> <span class="login_text">Вхід</span>  </a>
+                        <li class="user_acc"><a href="https://crm.p-farsh.com.ua/dashboard/" target="_blank" title="вхід" class="user_acc_link"><img src="/image/catalog/icons/user.svg" alt=""> <span class="login_text">Вхід</span>  </a>
+                        <!--*<li class="dropdown user_acc"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle user_acc_link" data-toggle="dropdown"><img src="/image/catalog/icons/user.svg" alt=""> <span class="login_text">Вхід</span>  </a>*-->
                             <ul class="dropdown-menu">
                                 <?php if ($logged) { ?>
                                 <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
@@ -136,13 +150,13 @@
 
             <div class="col-lg-3 flex_element align_center">
                 <div class="header_phone_wr">
-                    <a class="header_phone" href="tel:06666666"><img src="/image/catalog/icons/call-phone.svg" alt="">+38 044 123 45 67</a>
+                    <a class="header_phone" href="tel:0443922020"><img src="/image/catalog/icons/call-phone.svg" alt="">+38 044 392 20 20</a>
                 </div>
             </div>
 
             <div class="col-lg-2 flex_element align_center">
                 <a href="#" class="logo logo_header">
-                    <img src="/image/catalog/meat-service-logo.svg" alt="">
+                    <img src="/image/catalog/meat-service-logo.svg" alt="повний фарш">
                 </a>
             </div>
 
@@ -250,11 +264,11 @@
                             Київ, вул. Спаська, 5
                         </div>
 
-                        <a class="mnu_phone" href="#">
+                        <a class="mnu_phone" href="tel:0443922020">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8565 8.33796C11.3746 7.63975 11.5604 6.9039 10.9744 6.25437C9.65949 4.41439 8.77515 3.27655 8.22044 2.7286C7.16589 1.68687 5.43112 1.82778 4.51779 2.72771C4.02723 3.21107 3.86116 3.37706 3.35747 3.88867C0.551814 6.69583 2.26285 12.6301 6.81139 17.1831C11.3589 21.7351 17.2926 23.447 20.1041 20.6339C20.5689 20.1858 20.9624 19.7921 21.2728 19.464C22.1678 18.518 22.3037 16.8598 21.2669 15.7825C20.7354 15.2302 19.6503 14.3885 17.7329 13.017C17.1457 12.4919 16.4494 12.6057 15.811 13.0245C15.504 13.226 15.2805 13.4297 14.8585 13.8521L14.0923 14.6188C13.9914 14.7198 12.621 14.0335 11.2907 12.7019C9.95972 11.3696 9.2739 9.99912 9.37435 9.89868L10.1411 9.13148C10.275 8.99748 10.339 8.9326 10.4211 8.84633C10.5921 8.6666 10.7337 8.5035 10.8565 8.33796ZM15.5057 16.033L16.2721 15.2662C16.5044 15.0337 16.6549 14.8908 16.7773 14.7923C18.457 15.9985 19.4297 16.7569 19.8271 17.1698C20.0656 17.4176 20.0286 17.8699 19.8212 18.0891C19.5342 18.3924 19.1613 18.7655 18.7037 19.2069C16.8857 21.0257 12.0959 19.6437 8.22513 15.7692C4.35315 11.8934 2.97188 7.10285 4.7762 5.29755C5.27786 4.78804 5.4368 4.62918 5.92035 4.15271C6.10166 3.97407 6.59552 3.93395 6.81608 4.15182C7.24314 4.5737 8.03534 5.58805 9.20071 7.21139C9.14038 7.28629 9.06503 7.37093 8.97333 7.4673C8.90603 7.53804 8.84996 7.59488 8.72738 7.71758L7.96136 8.48402C6.65821 9.78706 7.76802 12.0048 9.87697 14.1158C11.9845 16.2254 14.203 17.3364 15.5057 16.033Z" fill="#2B2F31"/>
                             </svg>
-                            +38 044 123 45 67
+                            +38 044 392 20 20
                         </a>
 
                         <div class="mnu_soc">

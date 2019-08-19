@@ -31,7 +31,69 @@ class ControllerExtensionModuleCategory extends Controller {
 
 		$categories = $this->model_catalog_category->getCategories(0);
 
-		foreach ($categories as $category) {
+
+		// custom
+        $this->load->model('catalog/product');
+
+        $this->load->model('tool/image');
+
+        if (isset($this->request->get['filter'])) {
+            $filter = $this->request->get['filter'];
+        } else {
+            $filter = '';
+        }
+
+        if (isset($this->request->get['sort'])) {
+            $sort = $this->request->get['sort'];
+        } else {
+            $sort = 'p.sort_order';
+        }
+
+        if (isset($this->request->get['order'])) {
+            $order = $this->request->get['order'];
+        } else {
+            $order = 'ASC';
+        }
+
+        if (isset($this->request->get['page'])) {
+            $page = $this->request->get['page'];
+        } else {
+            $page = 1;
+        }
+
+        if (isset($this->request->get['limit'])) {
+            $limit = (int)$this->request->get['limit'];
+        } else {
+            $limit = $this->config->get($this->config->get('config_theme') . '_product_limit');
+        }
+
+        $category_id = (int)array_pop($parts);
+
+        $data['products'] = array();
+
+        $url = '';
+
+        $filter_data = array(
+            'filter_category_id' => $category_id,
+            'filter_filter'      => $filter,
+            'sort'               => $sort,
+            'order'              => $order,
+            'start'              => ($page - 1) * $limit,
+            'limit'              => $limit
+        );
+
+        $results = $this->model_catalog_product->getProducts($filter_data);
+
+        foreach ($results as $result) {
+            $data['products'][] = array(
+                'product_id'  => $result['product_id'],
+                'name'        => $result['name'],
+                'href'        => $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'] . $url),
+            );
+        }
+
+
+        foreach ($categories as $category) {
 			$children_data = array();
 
 			if ($category['category_id'] == $data['category_id']) {

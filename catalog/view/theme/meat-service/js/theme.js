@@ -2,7 +2,7 @@ $(function() {
 
     // burger
 
-    $('.main_header_itms .mnu_button').click(function () {
+    $('.main_header .mnu_button').click(function () {
         $(this).find('.hamburger');
         $('.mob_mnu_wr').fadeIn();
         $('.mob_mnu_wr').addClass('mob_mnu_wr_open');
@@ -89,16 +89,6 @@ $(function() {
         nextArrow: '.gallery_nav .nav_right'
     });
 
-    // $('.partners_itms').slick({
-    //     prevArrow: '.partners_nav .nav_left',
-    //     nextArrow: '.partners_nav .nav_right',
-    //     // arrows: false,
-    //     dots: false,
-    //     infinite: false,
-    //     speed: 500,
-    //     slidesToShow: 4,
-    //     slidesToScroll: 1
-    // });
 
     $('.scroll_img_slider').slick({
         // arrows: false,
@@ -419,32 +409,7 @@ $(function() {
 
                 return exports;
             })();
-            const Mouse2 = (function() {
-                const exports = {
-                    x: 0,
-                    y: 0,
-                    bind(canvas2) {
-                        canvas2.addEventListener('mousemove', onMouseMove);
-                        canvas2.addEventListener('touchmove', onTouchMove);
-                    },
-                    unbind(canvas2) {
-                        canvas2.removeEventListener('mousemove', onMouseMove);
-                        canvas2.removeEventListener('touchmove', onTouchMove);``
-                    }
-                };
 
-                var onMouseMove = function(event) {
-                    exports.x = event.pageX - window.scrollX;
-                    exports.y = event.pageY - window.scrollY;
-                };
-
-                var onTouchMove = function(event) {
-                    exports.x = event.touches[0].pageX;
-                    exports.y = event.touches[0].pageY;
-                };
-
-                return exports;
-            })();
             var Stage = {
                 width: 1,
                 height: 1,
@@ -797,11 +762,7 @@ $(function() {
                     animation.setSize(_width, _height);
                 };
 
-                this.setSize2 = function(_width, _height) {
-                    canvas2.width = (Stage.width = (width = _width));
-                    canvas2.height = (Stage.height = (height = _height));
-                    animation.setSize(_width, _height);
-                };
+
 
                 init.call(this);
             };
@@ -830,7 +791,6 @@ $(function() {
 
     if ($(window).width() < 768) {
 
-        // var bgLeft = $('.s_main_prod').find('.sect_side_bg_left');
         $('.s_main_prod').find('.sect_side_bg_left').appendTo($('.s_main_prod').find('.meat_img'));
         $('.s_get_price').find('.sect_side_bg_right').appendTo($(this).find('.meat_img'));
         $('.footer_mnu_col2').find('ul li').appendTo($('.footer_mnu_col1').find('ul'));
@@ -841,5 +801,15 @@ $(function() {
 
     }
 
-
+$('.list-group-item').each(function () {
+    $(this).on('click',function(){
+       $.ajax({
+         type:'GET',
+         url:'index.php?route=ajax/index/ajaxGetProduct',
+         success:function(data){
+           console.log(data);
+         }
+       });
+    });
+});
 });

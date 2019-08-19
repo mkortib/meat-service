@@ -6,9 +6,9 @@
 
     <div class="row flex_element">
 
-      <div class="col-md-2 col-sm-4 hidden-xs visible-sm-block visible-md-block visible-lg-block">
+      <div class="col-md-2 col-sm-4 logo_footer_wr">
         <a href="#" class="logo logo_footer">
-          <img src="/image/catalog/meat-service-logo.svg" alt="">
+          <img src="/image/catalog/meat-service-logo.svg" alt="повний фарш">
         </a>
       </div>
 
@@ -22,7 +22,7 @@
         </nav>
       </div>
 
-      <div class="col-md-2 col-sm-4 flex_element align_center hidden-xs visible-sm-block visible-md-block visible-lg-block">
+      <div class="col-md-2 col-sm-4 flex_element align_center footer_mnu_col2_wr">
         <nav class="footer_mnu_col2 footer_mnu_col">
           <ul>
             <li><a href="#">Прайс-лист</a></li>
@@ -32,7 +32,7 @@
         </nav>
       </div>
 
-      <div class="col-md-2 col-sm-4 col-sm-push-4 col-md-push-0 flex_element align_center hidden-xs visible-sm-block visible-md-block visible-lg-block">
+      <div class="col-md-2 col-sm-4 col-sm-push-4 col-md-push-0 flex_element align_center soc_footer_wr">
         <div class="soc_footer">
           <span>Ми в соц. мережах</span>
           <ul>
@@ -91,7 +91,7 @@
         </a>
       </div>
 
-      <div class="col-xs-12 col-sm-12 hidden-xs visible-sm-block visible-md-block visible-lg-block">
+      <div class="col-xs-12 col-sm-12 copy_wr">
           <div class="copy">
               &copy; Всі права захищені. <script>document.write( new Date().getFullYear() )</script>
           </div>
