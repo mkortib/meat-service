@@ -240,3 +240,29 @@
 2019-08-21 10:52:54 - PHP Notice:  Undefined variable: counter in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
 2019-08-21 10:52:54 - PHP Notice:  Undefined variable: imgArr in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
 2019-08-21 10:52:54 - PHP Notice:  Undefined variable: imgArr in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
+2019-08-21 14:31:43 - PHP Warning:  ftp_connect():  in W:\domains\meat-servise\admin\controller\extension\installer.php on line 291
+2019-08-21 16:24:13 - PHP Notice:  Error: Could not load template W:/domains/meat-servise/catalog/view/theme/default/template/default/template/ajax/index.tpl! in W:\domains\meat-servise\system\storage\modification\system\library\template\php.php on line 23
+2019-08-21 16:27:06 - PHP Notice:  Error: Could not load template W:/domains/meat-servise/catalog/view/theme/default/template/default/template/ajax/index.tpl! in W:\domains\meat-servise\system\storage\modification\system\library\template\php.php on line 23
+2019-08-21 16:27:08 - PHP Notice:  Error: Could not load template W:/domains/meat-servise/catalog/view/theme/default/template/default/template/ajax/index.tpl! in W:\domains\meat-servise\system\storage\modification\system\library\template\php.php on line 23
+2019-08-21 16:27:17 - PHP Notice:  Error: Could not load template W:/domains/meat-servise/catalog/view/theme/default/template/default/template/ajax/index.tpl! in W:\domains\meat-servise\system\storage\modification\system\library\template\php.php on line 23
+2019-08-21 16:27:18 - PHP Notice:  Error: Could not load template W:/domains/meat-servise/catalog/view/theme/default/template/default/template/ajax/index.tpl! in W:\domains\meat-servise\system\storage\modification\system\library\template\php.php on line 23
+2019-08-21 17:24:19 - PHP Notice:  Undefined variable: token in W:\domains\meat-servise\catalog\view\theme\meat-service\template\product\product.tpl on line 597
+2019-08-21 17:25:51 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 17:25:51 - PHP Notice:  Undefined variable: token in W:\domains\meat-servise\catalog\view\theme\meat-service\template\product\product.tpl on line 599
+2019-08-21 17:26:56 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 17:27:07 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 17:27:07 - PHP Notice:  Undefined variable: token in W:\domains\meat-servise\catalog\view\theme\meat-service\template\product\product.tpl on line 597
+2019-08-21 17:28:17 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 17:40:32 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 17:49:05 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 17:53:19 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:00:05 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:01:04 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:02:09 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:02:42 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:03:20 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:04:02 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:04:43 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:04:55 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:05:03 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
+2019-08-21 18:40:55 - PHP Notice:  Undefined variable: product in W:\domains\meat-servise\catalog\view\theme\meat-service\template\product\product.tpl on line 50

@@ -1,8 +1,12 @@
 <?php echo $header; ?>
-<div class="container">
+<div class="container-fluid">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+      <?php if ($breadcrumb == end($breadcrumbs)) : ?>
+        <li class="active_breadcrumb"><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+      <?php else : ?>
+        <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+      <?php endif ?>
     <?php } ?>
   </ul>
   <div class="row"><?php echo $column_left; ?>
@@ -18,10 +22,47 @@
         <?php if ($column_left || $column_right) { ?>
         <?php $class = 'col-sm-6'; ?>
         <?php } else { ?>
-        <?php $class = 'col-sm-8'; ?>
+        <?php $class = 'col-sm-6'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <?php if ($thumb || $images) { ?>
+
+          <!--**-->
+
+          <div class="slider_product_block">
+            <div class="slider_full">
+              <div class="slider-for">
+                <?php if ($thumb) { ?>
+                  <div>
+                    <a class="thumbnail product_slider_img"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+                    <a class="full_img">dssd</a>
+                  </div>
+                <?php } ?>
+                <?php if ($images) { ?>
+                  <?php foreach ($images as $image) { ?>
+                    <div>
+                      <a class="thumbnail product_slider_img"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a>
+                      <a class="full_img">dssd</a>
+                    </div>
+                  <?php } ?>
+                <?php } ?>
+              </div>
+              <button type="button" data-toggle="tooltip" class="btn btn-default to_wish" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="fa fa-heart-o"></i></button>
+            </div>
+
+            <div class="slider-nav">
+              <?php if ($thumb) { ?>
+              <div><a class="thumbnail product_slider_img_nav"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></div>
+              <?php } ?>
+              <?php if ($images) { ?>
+              <?php foreach ($images as $image) { ?>
+              <div><a class="thumbnail product_slider_img_nav"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></div>
+              <?php } ?>
+              <?php } ?>
+            </div>
+          </div>
+
+          <!--**-->
           <ul class="thumbnails">
             <?php if ($thumb) { ?>
             <li><a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" /></a></li>

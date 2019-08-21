@@ -39712,3 +39712,265 @@ FILE: system/library/template/tiwg.php
 REGEX: ~(require|include)(_once)?\(([^)]+)~
 LINE: 24
 ----------------------------------------------------------------
+2019-08-21 14:34:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2019-08-21 14:35:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Ajax Product Page Loader
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 60
+
+FILE: catalog/view/theme/meat-service/template/common/header.tpl
+CODE: </head>
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 68
+CODE: </body>
+LINE: 73
+
+FILE: catalog/view/theme/meat-service/template/common/footer.tpl
+CODE: </body>
+LINE: 213
+CODE: </body>
+LINE: 218
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+LINE: 57
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2019-08-21 14:35:50 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Ajax Product Page Loader
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 60
+
+FILE: catalog/view/theme/meat-service/template/common/header.tpl
+CODE: </head>
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 68
+CODE: </body>
+LINE: 73
+
+FILE: catalog/view/theme/meat-service/template/common/footer.tpl
+CODE: </body>
+LINE: 213
+CODE: </body>
+LINE: 218
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+LINE: 57
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2019-08-21 14:39:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Ajax Product Page Loader
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 60
+
+FILE: catalog/view/theme/meat-service/template/common/header.tpl
+CODE: </head>
+LINE: 85
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: </body>
+LINE: 68
+CODE: </body>
+LINE: 73
+
+FILE: catalog/view/theme/meat-service/template/common/footer.tpl
+CODE: </body>
+LINE: 213
+CODE: </body>
+LINE: 218
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+LINE: 57
+----------------------------------------------------------------
+MOD: |Quickfix by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'extension/installer/ftp'
+LINE: 131
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('ftp', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/'. $this->rewrite_step('localcopy', 'localremove'), 'token=' . $this->session->data['token'],
+NOT FOUND - OPERATION SKIPPED!
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------

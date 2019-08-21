@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<code>9173861200</code>
+    <name>Ajax Product Page Loader</name>
+    <version>2.3</version>
+    <author>Domus159@gmail.com</author>
+    <link>http://www.xdomus.ru</link>
+    <file path="catalog/view/theme/*/template/common/header.tpl">
+        <operation>
+            <search>
+				<![CDATA[
+					</head>
+				]]>
+			</search>
+            <add position="before"><![CDATA[
+				<script type="text/javascript" src="catalog/view/javascript/ajax-product-page-loader.js"></script>
+				<style>
+					#ajax_loader {
+						width: 100%;
+						height: 30px;
+						margin-top: 15px;
+						text-align: center;
+						border: none!important;	
+					}
+					#arrow_top {
+						background: url("../../../../../image/chevron_up.png") no-repeat transparent;
+						background-size: cover;
+						position: fixed;
+						bottom: 50px;
+						right: 15px;
+						cursor: pointer;
+						height: 50px;
+						width: 50px;
+					}
+				</style>
+            ]]></add>
+        </operation>
+    </file>  
+    <file path="catalog/view/theme/*/template/common/footer.tpl">
+        <operation>
+            <search>
+				<![CDATA[
+					</body>
+				]]>
+			</search>
+            <add position="before"><![CDATA[
+				<?php if ($loadmore_status) {?>
+					<style>
+						a.load_more {
+							<?php if (isset($loadmore_style)) {echo $loadmore_style;} else {?>
+								display:inline-block; margin:0 auto 20px auto; padding: 0.5em 2em; border: 1px solid #069; border-radius: 5px; text-decoration:none; text-transform:uppercase;
+							<?php } ?>
+						}
+					</style>		
+					<div id="load_more" style="display:none;">
+						<div class="row text-center">
+							<a href="#" class="load_more"><?php echo $loadmore_button; ?></a>
+						</div>
+					</div>
+				<?php } ?>
+            ]]></add>
+        </operation>
+        <operation>
+            <search>
+				<![CDATA[
+					</body>
+				]]>
+			</search>
+            <add position="before"><![CDATA[
+				<?php if ($loadmore_arrow_status) {?>
+					<a id="arrow_top" style="display:none;" onclick="scroll_to_top();"></a>
+				<?php } ?>
+            ]]></add>
+        </operation>		
+    </file>  	
+    <file path="catalog/controller/common/footer.php">
+        <operation>
+            <search>
+				<![CDATA[
+					$data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+				]]>
+			</search>
+            <add position="after"><![CDATA[
+				// Ajax Product Page Loader by Wadamir
+				$this->load->model('setting/setting');
+				$current_language_id = $this->config->get('config_language_id');
+				$data['loadmore_button'] = $this->config->get('loadmore_button_name_'.$current_language_id);
+				$data['loadmore_status'] = $this->config->get('loadmore_status');
+				$data['loadmore_style'] = $this->config->get('loadmore_style');
+				$data['loadmore_arrow_status'] = $this->config->get('loadmore_arrow_status');
+				// Ajax Product Page Loader by Wadamir
+            ]]></add>
+        </operation>
+    </file>		
+</modification>
