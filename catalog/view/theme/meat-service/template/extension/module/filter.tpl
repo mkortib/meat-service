@@ -1,8 +1,17 @@
-<div class="panel panel-default">
+<?php
+  $imgArr = [
+    '/image/catalog/category/freezz.svg',
+    '/image/catalog/category/cold.svg',
+    '/image/catalog/category/butcher.svg'
+  ];
+  $counter = 0;
+?>
+
+<div class="panel panel-default panel_filter_custom">
   <!--*<div class="panel-heading"><?php echo $heading_title; ?>Фільтри</div>*-->
   <div class="list-group list-group_filter">
     <?php foreach ($filter_groups as $filter_group) { ?>
-    <a class="list-group-item"><?php // echo $filter_group['name']; ?>
+    <a class="list-group-item caption"><?php // echo $filter_group['name']; ?>
         <img src="/image/catalog/category/filter.svg" alt="filter">
         Фільтри
         <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,11 +24,19 @@
         <div class="checkbox">
           <label>
             <?php if (in_array($filter['filter_id'], $filter_category)) { ?>
-            <input type="checkbox" name="filter[]" value="<?php echo $filter['filter_id']; ?>" checked="checked" />
-            <?php echo $filter['name']; ?>
+              <img src="<?php echo $imgArr[$counter]; $counter++ ?>" alt="">
+            <span class="filter_caption"><?php echo $filter['name']; ?></span>
+              <label class="container_checkbox">
+                  <input type="checkbox" name="filter[]" value="<?php echo $filter['filter_id']; ?>" checked="checked" />
+                  <span class="checkmark"></span>
+              </label>
             <?php } else { ?>
-            <input type="checkbox" name="filter[]" value="<?php echo $filter['filter_id']; ?>" />
-            <?php echo $filter['name']; ?>
+              <img src="<?php echo $imgArr[$counter]; $counter++ ?>" alt="">
+              <span class="filter_caption"><?php echo $filter['name']; ?></span>
+              <label class="container_checkbox">
+                  <input type="checkbox" name="filter[]" value="<?php echo $filter['filter_id']; ?>" />
+                  <span class="checkmark"></span>
+              </label>
             <?php } ?>
           </label>
         </div>
@@ -28,8 +45,8 @@
     </div>
     <?php } ?>
   </div>
-  <div class="panel-footer text-right">
-    <button type="button" id="button-filter" class="btn btn-primary"><?php echo $button_filter; ?></button>
+  <div class="panel-footer panel_footer_custom text-right">
+    <button type="button" id="button-filter" class="btn btn-primary"><?php // echo $button_filter; ?>Пошук</button>
   </div>
 </div>
 <script type="text/javascript"><!--

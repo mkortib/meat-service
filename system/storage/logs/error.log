@@ -235,3 +235,8 @@
 2019-08-19 18:47:42 - PHP Notice:  Array to string conversion in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 17
 2019-08-19 18:47:42 - PHP Notice:  Array to string conversion in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 17
 2019-08-19 18:47:42 - PHP Notice:  Array to string conversion in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 17
+2019-08-21 10:52:54 - PHP Notice:  Undefined variable: imgArr in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
+2019-08-21 10:52:54 - PHP Notice:  Undefined variable: counter in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
+2019-08-21 10:52:54 - PHP Notice:  Undefined variable: counter in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
+2019-08-21 10:52:54 - PHP Notice:  Undefined variable: imgArr in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22
+2019-08-21 10:52:54 - PHP Notice:  Undefined variable: imgArr in W:\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module\filter.tpl on line 22

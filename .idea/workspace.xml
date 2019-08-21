@@ -2,49 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a55a835-ca74-4b3d-a3a3-bd3d69578365" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/catalog/controller/latest/latest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/compare.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/manufacturer_info.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/manufacturer_list.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/product.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/review.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/search.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/special.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/catalog/category/chevron.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/catalog/category/chicken.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/catalog/category/filter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/catalog/category/pig.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/catalog/category/turkey.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/column_right.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/column_right.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/extension/module/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/extension/module/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/ru-ru/ru-ru.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/ru-ru/ru-ru.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1565884389" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1565884389" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/latest/latest.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1566233624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1566233624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1566231436" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.2.1566231810" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.stock_status.2.1566231436" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1566234002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.tax_class.1566231436" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1566231436" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/controller/catalog/manufacturer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/information_form.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/manufacturer_form.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/product_form.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/common/header.tpl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,26 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/review.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="1282" column="18" lean-forward="true" selection-start-line="1282" selection-start-column="18" selection-end-line="1282" selection-end-column="18" />
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -90,58 +44,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="93" column="56" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
+            <state relative-caret-position="441">
+              <caret line="68" column="62" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="277" column="29" lean-forward="true" selection-start-line="277" selection-start-column="29" selection-end-line="277" selection-end-column="29" />
+              <folding>
+                <element signature="e#126#133#1" expanded="true" />
+                <element signature="e#126#133#1" expanded="true" />
+                <element signature="e#126#133#1" expanded="true" />
+                <element signature="e#84#91#1" expanded="true" />
+                <element signature="e#30#36#0" expanded="true" />
+                <element signature="e#36#42#0" expanded="true" />
+                <element signature="e#42#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="1466" selection-start-line="1466" selection-end-line="1466" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="168" column="54" lean-forward="true" selection-start-line="168" selection-start-column="54" selection-end-line="168" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/wishlist.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            <state relative-caret-position="248">
+              <caret line="72" column="56" lean-forward="true" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/filter.tpl">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/account/wishlist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="207">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+        <entry file="file://$PROJECT_DIR$/catalog/controller/product/category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/product/compare.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/category.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="84" lean-forward="true" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
+            <state relative-caret-position="647">
+              <caret line="383" column="71" lean-forward="true" selection-start-line="383" selection-start-column="71" selection-end-line="383" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -150,14 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mnu_button</find>
-      <find>bread</find>
-      <find>breadcrumbs</find>
-      <find>fa fa-home</find>
-      <find>col-sm-3</find>
-      <find>list-group</find>
-      <find>&lt;div class=&quot;list-group&quot;</find>
-      <find>$product</find>
       <find>product-thumb</find>
       <find>$products</find>
       <find>$product_info</find>
@@ -180,6 +148,14 @@
       <find>id=&quot;content&quot;</find>
       <find>aside</find>
       <find>$heading_title</find>
+      <find>caption</find>
+      <find>}</find>
+      <find>;</find>
+      <find>wishlist</find>
+      <find>wishli</find>
+      <find>wish</find>
+      <find>$limits</find>
+      <find>$pagination</find>
     </findStrings>
     <replaceStrings>
       <replace>$accent</replace>
@@ -207,19 +183,22 @@
         <option value="$PROJECT_DIR$/catalog/controller/latest/latest.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
         <option value="$PROJECT_DIR$/catalog/controller/common/column_right.php" />
-        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/ru-ru/ru-ru.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" />
-        <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
         <option value="$PROJECT_DIR$/catalog/controller/ajax/ControllerAjaxIndex.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass" />
         <option value="$PROJECT_DIR$/catalog/controller/extension/module/category.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/category.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/filter.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/wishlist.php" />
+        <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
+        <option value="$PROJECT_DIR$/catalog/controller/product/category.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/common/header.php" />
       </list>
     </option>
   </component>
@@ -255,20 +234,119 @@
             <path>
               <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
               <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="meat-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="meat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="meat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
               <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="catalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meat-servise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meat-servise" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-              <item name="catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,6 +374,7 @@
       <recent name="C:\Users\WSF Design\Downloads\OSPanel\domains\meat-servise\image\catalog\category" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WSF Design\Downloads\OSPanel\domains\meat-servise\catalog\controller\product" />
       <recent name="C:\Users\WSF Design\Downloads\OSPanel\domains\meat-servise\catalog\view\theme\meat-service\template\extension\module" />
       <recent name="C:\Users\WSF Design\Downloads\OSPanel\domains\meat-servise\catalog\view\theme\meat-service\template" />
       <recent name="C:\Users\WSF Design\Downloads\OSPanel\domains\meat-servise\catalog\view\theme\meat-service\template\common" />
@@ -355,12 +434,21 @@
       <workItem from="1565870111867" duration="24158000" />
       <workItem from="1566197129786" duration="3666000" />
       <workItem from="1566202764015" duration="3285000" />
-      <workItem from="1566206064110" duration="23891000" />
+      <workItem from="1566206064110" duration="40119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195818000" />
+    <option name="totallyTimeSpent" value="212046000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
@@ -377,12 +465,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31422272" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31422272" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,28 +506,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/vernisazh/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/libs/slick-carousel/slick/slick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/catalog/icons/call-calling.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/catalog/icons/viber.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/catalog/icons/telegram-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -497,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="127" column="67" lean-forward="true" selection-start-line="127" selection-start-column="67" selection-end-line="127" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -525,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="80" column="26" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -619,11 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/ajax/ControllerAjaxIndex.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -645,17 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="225" column="44" lean-forward="true" selection-start-line="225" selection-start-column="44" selection-end-line="225" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/extension/module/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
-          <caret line="88" column="55" lean-forward="true" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
+          <caret line="88" column="55" selection-start-line="88" selection-start-column="55" selection-end-line="88" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -665,21 +705,7 @@
     <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/review.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="181" column="8" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -687,37 +713,112 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/filter.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="101">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="84" lean-forward="true" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+        <state>
+          <caret selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/review.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="93" column="56" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
+        <state relative-caret-position="391">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="66" column="14" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="1282" column="18" lean-forward="true" selection-start-line="1282" selection-start-column="18" selection-end-line="1282" selection-end-column="18" />
+        <state relative-caret-position="156">
+          <caret line="1466" selection-start-line="1466" selection-end-line="1466" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/extension/module/filter.tpl">
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/wishlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        <state relative-caret-position="23">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/account/wishlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/account/wishlist.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="277" column="29" lean-forward="true" selection-start-line="277" selection-start-column="29" selection-end-line="277" selection-end-column="29" />
+          <folding>
+            <element signature="e#126#133#1" expanded="true" />
+            <element signature="e#126#133#1" expanded="true" />
+            <element signature="e#126#133#1" expanded="true" />
+            <element signature="e#84#91#1" expanded="true" />
+            <element signature="e#30#36#0" expanded="true" />
+            <element signature="e#36#42#0" expanded="true" />
+            <element signature="e#42#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="68" column="62" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/product/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="383" column="71" lean-forward="true" selection-start-line="383" selection-start-column="71" selection-end-line="383" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="168" column="54" lean-forward="true" selection-start-line="168" selection-start-column="54" selection-end-line="168" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="72" column="56" lean-forward="true" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
         </state>
       </provider>
     </entry>

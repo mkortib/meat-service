@@ -1280,9 +1280,246 @@ body
 .cat_row
   padding-top: 20px
 
+.panel_filter_custom
+  border: none
+  background-color: $light-grey
+  box-shadow: 0 0 transparent
+
 .list-group_filter
+  background-color: grey
+
+  .list-group-item
+    border: none
+
+    label
+      display: flex
+      //flex-direction: row-reverse
+      justify-content: space-between
+      padding-left: 0
+      padding: 0 0 5px 0
+      width: 100%
+      font-size: 16px
+
+      input
+        position: relative
+        display: block
+        margin-left: 0
+
+      img
+        position: absolute
+
+      .filter_caption
+        padding-left: 40px
+        display: block
 
 
+  .caption
+    justify-content: center
+    align-items: center
+    border: none
+    display: flex
+    font-weight: bold
+    color: $red
+    font-size: 24px
+    line-height: 1
+
+    &:hover, &:active, &:focus
+      background-color: #fff
+      color: $red
+
+    img
+      display: block
+      margin-top: -5px
+      margin-right: 10px
+
+    svg
+      display: block
+      margin-left: 15px
+
+      path
+        fill: $red
+
+.panel_footer_custom
+  border: none
+  background-color: #fff
+  box-shadow: 0 0 transparent
+  text-align: center
+
+  button
+    outline: none
+    background-color: $red
+    border: none
+    display: inline-block
+    transition: all .3s ease
+
+    &:hover, &:active, &:focus
+      background-color: darken($red, 5%)
+
+.catalog_row
+  margin-top: 50px
+
+.catalog_items_title
+  font-weight: bold
+  margin: 0
+
+// custom checkboxes
+
+/* The container */
+.container_checkbox
+  width: 20px!important
+  height: 20px
+  display: inline-block!important
+  position: relative
+  //padding-left: 35px
+  //margin-bottom: 12px
+  cursor: pointer
+  //font-size: 22px
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+
+/* Hide the browser's default checkbox */
+.container_checkbox input
+  position: absolute
+  opacity: 0
+  cursor: pointer
+  height: 0
+  width: 0
+
+
+/* Create a custom checkbox */
+.checkmark
+  position: absolute
+  top: 0
+  left: 0
+  height: 20px
+  width: 20px
+  background-color: transparent
+  border: 2px solid rgba(#2B2F31, .5)
+
+
+/* On mouse-over, add a grey background color */
+.container_checkbox:hover input ~ .checkmark
+  background-color: transparent
+
+
+/* When the checkbox is checked, add a blue background */
+.container_checkbox input:checked ~ .checkmark
+  background-color: #B04D50
+  border-color: #B04D50
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after
+  content: ""
+  position: absolute
+  display: none
+
+
+/* Show the checkmark when checked */
+.container_checkbox input:checked ~ .checkmark:after
+  display: block
+
+
+/* Style the checkmark/indicator */
+.container_checkbox .checkmark:after
+  left: 6px
+  top: 3px
+  width: 5px
+  height: 10px
+  border: solid white
+  border-width: 0 3px 3px 0
+  -webkit-transform: rotate(45deg)
+  -ms-transform: rotate(45deg)
+  transform: rotate(45deg)
+
+
+
+.show_count
+  display: flex
+  max-width: 170px
+  width: 100%
+  justify-content: space-between
+  align-items: center
+  font-size: 16px
+  float: right
+
+  .show_text
+    margin: 0
+
+  .checkbox_show
+    border: 1px solid $grey
+    border-radius: 5px
+    padding: 12px 15px
+    outline: none
+    cursor: pointer
+
+.products_row
+  margin-top: 50px
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+  margin: auto
+
+.product-thumb
+  border-radius: 10px
+  position: relative
+  transition: box-shadow .3s ease
+
+  &:hover
+    box-shadow: 0px 4px 50px rgba(176, 77, 80, 0.25)
+
+    .to_wish
+      opacity: 1
+
+
+  .caption
+    text-align: center
+    margin-top: -20px
+    padding-bottom: 20px
+
+    a
+      font-size: 16px
+      font-weight: bold
+      color: $text
+      text-decoration: none
+
+  .to_wish
+    opacity: 0
+    transition: opacity .5s ease
+    position: absolute
+    top: 10px
+    right: 10px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border: none
+    border-radius: 50%
+    outline: none
+    width: 46px
+    height: 46px
+    background-color: #f6f6f6
+
+    .fa
+      font-size: 20px
+      position: relative
+      top: 3px
+
+
+//  .input-group-addon
+//    background-color: transparent
+//    border: none
+//    font-size: 16px
+//
+//  .form-control
+//    width: 70px!important
+//    display: block!important
+//    font-size: 16px!important
+//    border: 1px solid $grey
+//    border-top-left-radius: 1px!important
+//    border-bottom-left-radius: 1px!important
+//    border-radius: 10px
+//    box-shadow: 0 0 transparent
 
 // Inputs
 
