@@ -1456,6 +1456,9 @@ body
     outline: none
     cursor: pointer
 
+
+// OPEN PRODUCT
+
 .products_row
   margin-top: 50px
 
@@ -1543,10 +1546,68 @@ body
   max-width: 510px
   width: 100%
 
+  * a:focus
+    outline: none
+    border: none
+
+  .full_img
+    width: 46px
+    height: 46px
+    display: block
+    position: absolute
+    z-index: 9991
+    bottom: 30px
+    left: 30px
+    border-radius: 50%
+    background-color: rgba(#fff, .5)
+
+    img
+      position: absolute
+      height: 24px
+      width: 24px
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+
+  .slider_product_nav
+    width: 95%
+    margin: auto
+    display: flex
+    justify-content: space-between
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+    .arrow
+      cursor: pointer
+
+      &:hover
+
+        svg
+          transform: scale(1.1) translateY(-5px)
+          opacity: 0.8
+
+      svg
+        transition: all .3s ease
+        width: 30px
+        height: 30px
+
+        path
+          fill: $text
+
+      &.right_arrow
+        transform: rotate(90deg)
+
+      &.left_arrow
+        transform: rotate(-90deg)
+
   .thumbnail
     padding: 0
     margin-bottom: 0
-    //border: none
+    border: none
+    position: relative
+    z-index: 5
 
   .slider_full
     position: relative
@@ -1561,12 +1622,114 @@ body
       border-radius: 50%
       color: $text
       font-size: 20px
-
+      background-color: rgba(#fff, .5)
+      outline: none
+      border: none
       .fa
         position: relative
-        top: 2px
+        top: 3px
+        font-size: 22px
+
+.main_prod_info
+
+  h1
+    font-size: 24px
+    font-weight: bold
+
+.button_product_cart
+  max-width: 320px
+  font-size: 18px
+  font-weight: bold
+  border: none
+  outline: none
+  line-height: 1
+  margin-top: 70px
+
+  svg
+    position: relative
+    top: 5px
+    margin-top: -5px
+    margin-right: 10px
+    width: 24px
+
+.product_main_options
+  max-width: 450px
+  margin-top: 50px
+
+  .product_option
+    display: flex
+    justify-content: space-between
+    font-size: 16px
+    margin-bottom: 20px
+
+.dowland_pdf
+  text-decoration: none
+  color: $red
+  font-size: 16px
+  transition: all .3s ease
+  cursor: pointer
+  display: inline-block
+  margin-top: 30px
+
+  img
+    margin-right: 10px
+
+  &:hover, &:active, &:focus
+    color: lighten($red, 5%)
+    text-decoration: none
+
+.middle_cnt
+  margin-top: 100px
+
+.middle_item
+  max-width: 330px
+  color: rgba(#2B2F31, .75)
+  font-size: 16px
+
+  .top_cnt
+    display: flex
+    align-items: center
+
+  svg
+    width: 45px
+    height: auto
+    margin-right: 10px
+    fill: rgba(#2B2F31, .75)
+
+    path
+      fill: #2B2F31
+      opacity: .75
+
+  p
+    font-size: 16px
+    line-height: 1.2
+    margin: 10px 0 0 0
+
+.product_description
+  margin-top: 60px
+
+  .prod_desc_title, h2
+    font-size: 24px
+    font-weight: bold
+
+  h2
+    margin-bottom: 25px
 
 
+.description
+  font-size: 16px
+  line-height: 1.5
+
+  *
+    margin-bottom: 25px
+
+.related_posts
+  margin: 100px 0
+
+  h3
+    margin-bottom: 60px
+    font-size: 36px
+    font-weight: bold
 
 
 // Inputs

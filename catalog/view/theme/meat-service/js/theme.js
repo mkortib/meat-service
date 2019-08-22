@@ -806,6 +806,7 @@ $(function() {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
+        speed: 1000,
         asNavFor: '.slider-nav'
     });
 
@@ -814,9 +815,11 @@ $(function() {
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         dots: false,
-        centerMode: true,
-        focusOnSelect: true
+        speed: 1000,
+        // centerMode: true,
+        focusOnSelect: true,
+        prevArrow: $('.left_arrow'),
+        nextArrow: $('.right_arrow')
     });
-
 
 });

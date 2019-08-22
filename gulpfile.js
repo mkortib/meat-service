@@ -34,7 +34,7 @@ gulp.task('js', function() {
 		'catalog/view/theme/meat-service/libs/slick-carousel/slick/slick.min.js',
 		'catalog/view/theme/meat-service/libs/anime.js/anime.min.js',
 		'catalog/view/theme/meat-service/libs/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js',
-		// 'catalog/view/theme/meat-service/libs/smooth-scrollbar/smooth-scrollbar.js',
+		'catalog/view/theme/meat-service/libs/fancybox/dist/jquery.fancybox.min.js',
 		'catalog/view/theme/meat-service/js/theme.js' // always at the end
 		])
 	.pipe(concat('theme.min.js'))
