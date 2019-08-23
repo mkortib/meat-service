@@ -112,6 +112,7 @@ body
 .main_header
   padding: 15px 0
   width: 100%
+  box-shadow: 0px 4px 4px rgba(229, 229, 229, 0.25)
   //background-color: #fff
 
 .logo_header_col
@@ -875,6 +876,14 @@ body
   img
     max-width: 150px
     width: 100%
+    filter: grayscale(1)
+    transition: all .5s ease
+
+  &:hover
+    img
+      filter: grayscale(0)
+
+
 
 .footer_mnu_col
   margin-left: 30px
@@ -1730,6 +1739,209 @@ body
     margin-bottom: 60px
     font-size: 36px
     font-weight: bold
+
+
+//    PRELOADER
+
+.preloader
+  position: fixed
+  width: 100%
+  height: 100%
+  background-color: #fff
+  left: 0
+  top: 0
+  right: 0
+  bottom: 0
+  z-index: 99999
+
+  img
+    max-width: 30vw
+    position: fixed
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+
+
+
+.s_get_price_page
+  background-color: $light-grey
+
+  .price_page_title
+    font-size: 24px
+    font-weight: bold
+    text-align: center
+    margin-top: 56px
+
+  .price_page_title_under
+    text-align: center
+    font-size: 16px
+    line-height: 1.4
+    max-width: 685px
+    margin: 25px auto 0
+
+.nav_price_filter_wr
+  margin-top: 45px
+
+  .nav
+    display: flex
+    max-width: 420px
+    justify-content: space-between
+    margin: auto
+
+    > div
+      cursor: pointer
+      font-weight: bold
+      font-size: 18px
+      transition: color .3s ease
+      display: flex
+      align-items: center
+
+      svg
+        margin-right: 10px
+
+        path
+          transition: fill .3s ease
+
+      &:hover, &:active, &:focus, &.active_li
+        color: $accent
+
+        path
+          fill: $accent
+
+.content_filter
+  margin-top: 90px
+
+  > div
+    display: none
+
+    &.active_row
+      display: block
+
+  .product_list_price
+    max-width: 480px
+    margin: auto
+    padding: 0
+
+    li
+      list-style-type: none
+      display: flex
+      justify-content: space-between
+      width: 100%
+      position: relative
+      margin-bottom: 20px
+
+      &::after
+        content: ''
+        width: 100%
+        border-bottom: 1px dashed #E7DADA
+        position: absolute
+        bottom: 5px
+        z-index: 0
+
+      > div
+        background-color: $light-grey
+        display: inline-block
+        position: relative
+        z-index: 1
+        padding: 0 5px
+        font-size: 14px
+
+      .li_title
+        font-weight: bold
+
+      .li_price
+        //width: 100%
+        text-align: right
+        position: relative
+
+.butt_page_get_price
+  max-width: 315px
+  margin: 100px auto
+  display: block
+  padding: 20px 0
+
+.mx-auto
+  margin: auto
+
+.seo_txt_get_product
+  margin: 100px 0
+
+.seo_txt
+
+  *
+    margin-bottom: 20px
+    line-height: 1.5
+
+.s_get_price_form
+
+  .inp_bl
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 20px
+
+    label
+      margin: 0
+      font-weight: normal
+
+    input
+      max-width: 370px
+      width: 100%
+      padding: 7px 10px
+      outline: none
+      border: 1px solid $grey
+
+  button
+    max-width: 315px
+    border: none
+    outline: none
+    margin-left: 80px
+    margin-top: 20px
+
+
+  .form_partners
+    max-width: 450px
+    margin: auto
+
+    .form_title
+      font-size: 24px
+      font-weight: bold
+      line-height: 1.4
+
+    .form_descr
+      font-size: 18px
+      font-weight: normal
+      
+      
+// DELIVERY PAGE
+
+.s_delivery
+
+  .breadcrumb
+    margin-top: 20px
+
+
+  .overlay
+    background-image: url('/image/catalog/delivery.png')
+    background-size: cover
+    background-position: center
+    width: 100%
+    height: 35vw
+    color: #fff
+    display: flex
+    justify-content: center
+    align-items: center
+
+    h2
+      font-size: 48px
+      text-align: center
+      line-height: 1.3
+      max-width: 960px
+
+  .del_top_info
+    font-size: 18px
+    margin: 100px 0
 
 
 // Inputs

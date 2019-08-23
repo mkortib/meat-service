@@ -822,4 +822,46 @@ $(function() {
         nextArrow: $('.right_arrow')
     });
 
+    $('.nav_price_filter_wr .nav div').click(function() {
+        $('.nav_price_filter_wr .nav div').removeClass('active_li');
+        $(this).addClass('active_li');
+        $('.content_filter .row').removeClass('active_row');
+
+        if ($(this).hasClass('chicken')) {
+            $('.chicken_row').addClass('active_row');
+        }
+
+        if ($(this).hasClass('pig')) {
+            $('.pig_row').addClass('active_row');
+        }
+
+        if ($(this).hasClass('turkey')) {
+            $('.turkey_row').addClass('active_row');
+        }
+
+    })
+
+    $('.first_col').each(function () {
+        $(this).find('.li_title').each(function (index) {
+            if (index > 2) {
+                $(this).css('filter', 'blur(8px)')
+            }
+        })
+    });
+
+    $('.second_col').each(function () {
+        $(this).find('.li_title').each(function (index) {
+            if (index > 2) {
+                $(this).css('filter', 'blur(8px)')
+            }
+        })
+    });
+
+    $(document).ready(function () {
+        $('.preloader').delay(1500).fadeOut();
+    })
+
 });
+
+
+

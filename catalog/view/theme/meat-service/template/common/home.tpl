@@ -361,4 +361,10 @@
 
 </div>
 
+<!--* PRELOADER *-->
+
+<div class="preloader">
+    <img src="/image/catalog/farsh-preloader.svg" alt="">
+</div>
+
 <?php echo $footer; ?>

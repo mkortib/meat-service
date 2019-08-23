@@ -103,9 +103,7 @@
 
 </footer>
 
-
 <!--   POPUPS   -->
-
 
 <div class="callback zoom-anim-dialog mfp-hide" id="callback">
 
@@ -130,6 +128,8 @@
   </form>
 
 </div>
+
+<!--*  PRELOADER FOR MAIN PAGE *-->
 
 
 <!--   POPUPS END   -->

@@ -38,6 +38,10 @@
 <meta name="msapplication-TileImage" content="/image/catalog/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
 <!-- -->
 
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
@@ -64,7 +68,6 @@
 </head>
 <body class="<?php echo $class; ?>" id="body">
 
-
 <?php
   $path = "common/home";
   $url = $_SERVER['REQUEST_URI'];
@@ -75,13 +78,12 @@
   }
 ?>
 
-
 <?php if ($is_home) { ?>
+
 <!-- здесь вставить что-то только для главной страницы -->
 <header class="main_header main_header_home">
     <div class="container-fluid">
         <div class="main_header_itms flex_element">
-
             <div class="burger_col flex_element align_center">
                 <div class="mnu_button">
                     <button class="hamburger hamburger--collapse" type="button">
@@ -240,7 +242,7 @@
                                 <li><a href="#">Реэстрація партнерів</a></li>
                                 <li><a href="#">Співпраця</a></li>
                                 <li><a href="#">Новини</a></li>
-                                <li><a href="#">Прайс-лист</a></li>
+                                <li><a href="/index.php?route=getprice/getprice">Прайс-лист</a></li>
                                 <li><a href="#">Доставка і оплата</a></li>
                                 <li><a href="#">Контакти</a></li>
                             </ul>

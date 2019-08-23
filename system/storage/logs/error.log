@@ -266,3 +266,7 @@
 2019-08-21 18:04:55 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
 2019-08-21 18:05:03 - PHP Notice:  Indirect modification of overloaded property ControllerProductProduct::$data has no effect in W:\domains\meat-servise\catalog\controller\product\product.php on line 336
 2019-08-21 18:40:55 - PHP Notice:  Undefined variable: product in W:\domains\meat-servise\catalog\view\theme\meat-service\template\product\product.tpl on line 50
+2019-08-23 11:17:38 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-23 11:20:32 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-23 11:20:33 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
+2019-08-23 11:24:25 - PHP Notice:  Indirect modification of overloaded property ControllerLatestLatest::$data has no effect in W:\domains\meat-servise\catalog\controller\latest\latest.php on line 6
