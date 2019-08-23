@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a55a835-ca74-4b3d-a3a3-bd3d69578365" name="Default Changelist" comment="ss">
-      <change afterPath="$PROJECT_DIR$/catalog/controller/delivery/delivery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/controller/getprice/getprice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/delivery/delivery.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/getprice/getprice.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/information/contact.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/information/information.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/information/sitemap.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/catalog/farsh-preloader.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/latest/latest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/js/theme.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/footer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/header.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/common/home.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/meat-service/template/latest/latest.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/catalog/meat-service-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/image/catalog/meat-service-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1566488834" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1566488834" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.length_class.2.1566490466" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.order_status.2.1566490466" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.stock_status.2.1566490466" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1566491016" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.tax_class.1566490466" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.weight_class.2.1566490466" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1566574775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1566574717" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.store.1566573734" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="1943" column="19" selection-start-line="1943" selection-start-column="19" selection-end-line="1943" selection-end-column="19" />
+            <state relative-caret-position="179">
+              <caret line="1947" column="20" selection-start-line="1947" selection-start-column="20" selection-end-line="1947" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -58,15 +35,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/delivery/delivery.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+            <state relative-caret-position="529">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="60" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -191,8 +172,8 @@
         <option value="$PROJECT_DIR$/catalog/controller/delivery/delivery.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/information/contact.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/getprice/getprice.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" />
         <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/template/delivery/delivery.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass" />
       </list>
     </option>
   </component>
@@ -395,12 +376,12 @@
       <workItem from="1566202764015" duration="3285000" />
       <workItem from="1566206064110" duration="69334000" />
       <workItem from="1566546761560" duration="14191000" />
-      <workItem from="1566563661857" duration="6059000" />
+      <workItem from="1566563661857" duration="7484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261511000" />
+    <option name="totallyTimeSpent" value="262936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,7 +396,7 @@
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.16897655" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.16897655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.5005513" side_tool="true" weight="0.12526652" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -431,7 +412,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21940464" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21940464" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -744,22 +725,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="1943" column="19" selection-start-line="1943" selection-start-column="19" selection-end-line="1943" selection-end-column="19" />
+        <state relative-caret-position="460">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/template/delivery/delivery.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        <state relative-caret-position="529">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/meat-service/stylesheet/stylesheet.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="1947" column="20" selection-start-line="1947" selection-start-column="20" selection-end-line="1947" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
